@@ -8,7 +8,8 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const { data } = this.props;
+    const postEdges = data.allMarkdownRemark.edges;
     return (
       <Layout>
         <div className="index-container">
