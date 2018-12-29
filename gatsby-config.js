@@ -1,5 +1,5 @@
-const config = require("./data/SiteConfig");
 const urljoin = require("url-join");
+const config = require("./data/SiteConfig");
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -19,6 +19,12 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-styled-components",
+      options: {
+        // Add any options here
+      }
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
