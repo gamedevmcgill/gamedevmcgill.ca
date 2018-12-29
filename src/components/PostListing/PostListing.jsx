@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 class PostListing extends React.Component {
   getPostList() {
-    const postEdges = this.props;
+    const { postEdges } = this.props;
     return postEdges.map(postEdge => ({
       path: postEdge.node.fields.slug,
       tags: postEdge.node.frontmatter.tags,
