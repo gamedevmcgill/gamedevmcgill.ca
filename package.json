@@ -4,6 +4,7 @@
   "version": "1.1.0",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
+    "@rebass/grid": "^6.0.0-7",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "2.0.40",
     "gatsby-image": "2.0.19",
