@@ -1,12 +1,16 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
+import { Flex } from "@rebass/grid";
+import MaxWidthBox from "../components/Styled/MaxWidthBox";
 import AbsoluteImage from "../components/Styled/AbsoluteImage";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Hero from "../../static/assets/hero.svg";
+import H1 from "../components/Styled/H1";
+import Em from "../components/Styled/Em";
 
 class Index extends React.Component {
   render() {
@@ -14,10 +18,19 @@ class Index extends React.Component {
     const postEdges = data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <AbsoluteImage src={Hero} top={0} left={0} imgWidth="100%" />
+        <Helmet title={config.siteTitle} />
+        <SEO />
+        <AbsoluteImage src={Hero} top={0} left={0} imgWidth="100%" minWidth="120rem" />
+        <Flex flexDirection="column" justifyContent="center" css={{ height: "60rem" }}>
+          <MaxWidthBox maxWidth="50rem" ml="10rem">
+            <H1>
+              {/* eslint-disable-next-line */}
+              {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to get
+              your attention.
+            </H1>
+          </MaxWidthBox>
+        </Flex>
         <div className="index-container">
-          <Helmet title={config.siteTitle} />
-          <SEO />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
