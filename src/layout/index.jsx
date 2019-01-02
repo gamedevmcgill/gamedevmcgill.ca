@@ -3,8 +3,9 @@ import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import "./index.css";
 import Navbar from "../components/Navbar/Navbar";
+import withThemeProvider from "../hoc/ThemeProvider/withThemeProvider";
 
-export default class MainLayout extends React.Component {
+class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
@@ -18,3 +19,5 @@ export default class MainLayout extends React.Component {
     );
   }
 }
+
+export default withThemeProvider(MainLayout);
