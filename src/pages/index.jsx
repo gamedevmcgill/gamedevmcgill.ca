@@ -10,6 +10,7 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Hero from "../../static/assets/hero.svg";
 import H1 from "../components/Styled/H1";
+import H2 from "../components/Styled/H2";
 import Em from "../components/Styled/Em";
 
 class Index extends React.Component {
@@ -20,8 +21,18 @@ class Index extends React.Component {
       <Layout>
         <Helmet title={config.siteTitle} />
         <SEO />
-        <AbsoluteImage src={Hero} top={0} left={0} imgWidth="100%" minWidth="120rem" />
-        <Flex flexDirection="column" justifyContent="center" css={{ height: "60rem" }}>
+        <AbsoluteImage
+          src={Hero}
+          top={0}
+          left={0}
+          imgWidth="100%"
+          minWidth="120rem"
+        />
+        <Flex
+          flexDirection="column"
+          justifyContent="center"
+          css={{ height: "60rem" }}
+        >
           <MaxWidthBox maxWidth="50rem" ml="10rem">
             <H1>
               {/* eslint-disable-next-line */}
@@ -30,9 +41,21 @@ class Index extends React.Component {
             </H1>
           </MaxWidthBox>
         </Flex>
-        <div className="index-container">
-          <PostListing postEdges={postEdges} />
-        </div>
+        <MaxWidthBox maxWidth="70rem" m="0 auto">
+          <H2>About</H2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div className="index-container">
+            <PostListing postEdges={postEdges} />
+          </div>
+        </MaxWidthBox>
       </Layout>
     );
   }

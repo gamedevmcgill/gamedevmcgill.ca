@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Em = styled.em`
+const H2 = styled.h2`
+  font-size: 3rem;
   color: ${props => props.theme.colors.primary};
 `;
-
-export default Em;
+export default H2;
