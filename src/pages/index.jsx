@@ -15,6 +15,7 @@ import Em from "../components/Styled/Em";
 import StyledBox from "../components/Styled/StyledBox";
 import Paragraph from "../components/Styled/Paragraph";
 import Section from "../components/Styled/Section";
+import Carousel from "../components/Carousel/Carousel";
 
 class Index extends React.Component {
   render() {
@@ -89,6 +90,7 @@ class Index extends React.Component {
                 </Paragraph>
               </Box>
               <Box p="2rem" width={[1, 1, 1 / 2]}>
+                <Carousel />
               </Box>
             </Flex>
           </Section>
