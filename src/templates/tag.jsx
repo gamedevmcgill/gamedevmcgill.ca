@@ -7,7 +7,10 @@ import config from "../../data/SiteConfig";
 
 export default class TagTemplate extends React.Component {
   render() {
-    const { pageContext: tag, data } = this.props;
+    const {
+      pageContext: { tag },
+      data
+    } = this.props;
     const postEdges = data.allMarkdownRemark.edges;
     return (
       <Layout>

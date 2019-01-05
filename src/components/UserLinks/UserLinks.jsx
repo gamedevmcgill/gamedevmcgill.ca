@@ -12,7 +12,9 @@ class UserLinks extends Component {
   }
 
   render() {
-    const { config: userLinks } = this.prop;
+    const {
+      config: { userLinks }
+    } = this.prop;
     if (!userLinks) {
       return null;
     }

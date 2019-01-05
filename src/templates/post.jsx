@@ -13,7 +13,10 @@ import "./post.css";
 
 export default class PostTemplate extends React.Component {
   render() {
-    const { pageContext: slug, data } = this.props;
+    const {
+      pageContext: { slug },
+      data
+    } = this.props;
     const postNode = data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.id) {
