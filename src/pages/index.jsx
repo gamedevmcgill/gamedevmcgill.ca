@@ -16,6 +16,30 @@ import StyledBox from "../components/Styled/StyledBox";
 import Paragraph from "../components/Styled/Paragraph";
 import Section from "../components/Styled/Section";
 import Carousel from "../components/Carousel/Carousel";
+import Events from "../components/Events/Events";
+
+const events = [
+  {
+    title: "McGameJam",
+    image: "https://source.unsplash.com/random/800x600",
+    description: "Hello"
+  },
+  {
+    title: "Tutorials",
+    image: "https://source.unsplash.com/random/800x600",
+    description: "Hello"
+  },
+  {
+    title: "Game Dev Social",
+    image: "https://source.unsplash.com/random/800x600",
+    description: "Hello"
+  },
+  {
+    title: "Watch n Learn",
+    image: "https://source.unsplash.com/random/800x600",
+    description: "Hello"
+  }
+];
 
 class Index extends React.Component {
   render() {
@@ -93,6 +117,10 @@ class Index extends React.Component {
                 <Carousel />
               </Box>
             </Flex>
+          </Section>
+          <Section>
+            <H2>Club Events</H2>
+            <Events events={events} />
           </Section>
           <div className="index-container">
             <PostListing postEdges={postEdges} />
