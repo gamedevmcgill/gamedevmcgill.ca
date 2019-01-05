@@ -26,7 +26,7 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         {items.map(i => (
-          <StyledBox m="2rem 0.25rem">
+          <StyledBox m="2rem 0.25rem" key={i}>
             <article>
               <img
                 style={{
