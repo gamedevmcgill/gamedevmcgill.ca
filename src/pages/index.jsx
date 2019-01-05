@@ -9,6 +9,7 @@ import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Hero from "../../static/assets/hero.svg";
+import Triangle from "../../static/assets/triangle.svg";
 import H1 from "../components/Styled/H1";
 import H2 from "../components/Styled/H2";
 import Em from "../components/Styled/Em";
@@ -118,9 +119,10 @@ class Index extends React.Component {
               </Box>
             </Flex>
           </Section>
-          <Section>
+          <Section css={{ position: "relative" }}>
             <H2>Club Events</H2>
             <Events events={events} />
+            <AbsoluteImage src={Triangle} top="-20rem" left="-20rem" width="75%" />
           </Section>
           <div className="index-container">
             <PostListing postEdges={postEdges} />
