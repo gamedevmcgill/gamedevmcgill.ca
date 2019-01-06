@@ -18,6 +18,7 @@ import Paragraph from "../components/Styled/Paragraph";
 import Section from "../components/Styled/Section";
 import Carousel from "../components/Carousel/Carousel";
 import Events from "../components/Events/Events";
+import Team from "../components/Team/Team";
 
 const events = [
   {
@@ -122,11 +123,47 @@ class Index extends React.Component {
           <Section css={{ position: "relative" }}>
             <H2>Club Events</H2>
             <Events events={events} />
-            <AbsoluteImage src={Triangle} top="-20rem" left="-20rem" width="75%" />
+            <AbsoluteImage
+              src={Triangle}
+              top="-20rem"
+              left="-20rem"
+              width="75%"
+            />
           </Section>
           <Section>
             <H2>Blog</H2>
             <PostListing postEdges={postEdges} />
+          </Section>
+          <Section>
+            <H2>Our team</H2>
+            <Team
+              members={[
+                {
+                  name: "Elie Harfouche",
+                  position: "President",
+                  game: "Maplestory",
+                  portrait: "https://source.unsplash.com/random/300x300"
+                },
+                {
+                  name: "Elie Harfouche",
+                  position: "President",
+                  game: "Maplestory",
+                  portrait: "https://source.unsplash.com/random/300x300"
+                },
+                {
+                  name: "Elie Harfouche",
+                  position: "President",
+                  game: "Maplestory",
+                  portrait: "https://source.unsplash.com/random/300x300"
+                },
+                {
+                  name: "Elie Harfouche",
+                  position: "President",
+                  game: "Maplestory",
+                  portrait: "https://source.unsplash.com/random/300x300"
+                }
+              ]}
+            />
           </Section>
         </MaxWidthBox>
       </Layout>
