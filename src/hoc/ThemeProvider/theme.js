@@ -6,7 +6,8 @@ const theme = {
     blue: "#30D0E5",
     green: "#C7FFAA",
     black: "black",
-    white: "white"
+    white: "white",
+    grey: "grey"
   }
 };
 
