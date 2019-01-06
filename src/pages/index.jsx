@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
+import Sponsors from "../components/Sponsors/Sponsors";
 import MaxWidthBox from "../components/Styled/MaxWidthBox";
 import AbsoluteImage from "../components/Styled/AbsoluteImage";
 import Layout from "../layout";
@@ -164,6 +165,21 @@ class Index extends React.Component {
                 }
               ]}
             />
+          </Section>
+          <Section>
+            <H2>Sponsors</H2>
+            <Flex flexWrap="wrap" justifyContent="center">
+              <Sponsors
+                sponsors={[
+                  {
+                    name: "Ubisoft",
+                    logo:
+                      "https://vignette.wikia.nocookie.net/logopedia/images/a/a0/Ubisoft_2017.svg/revision/latest?cb=20170622035823",
+                    website: "https://www.ubisoft.com"
+                  }
+                ]}
+              />
+            </Flex>
           </Section>
         </MaxWidthBox>
       </Layout>
