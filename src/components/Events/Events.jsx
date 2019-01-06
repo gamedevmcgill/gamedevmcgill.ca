@@ -7,7 +7,7 @@ import Paragraph from "../Styled/Paragraph";
 const Events = ({ events }) => (
   <Flex flexWrap="wrap" alignItems="space-between">
     {events.map(e => (
-      <StyledBox width={[1, "45%", "22.5%"]} key={e.title} m="0 1rem">
+      <StyledBox width={[1, "45%", "22.5%"]} key={e.title} m="0 1rem" p="1rem">
         <article>
           <Title>{e.title}</Title>
           <img
