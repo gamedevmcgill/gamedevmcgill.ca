@@ -124,9 +124,10 @@ class Index extends React.Component {
             <Events events={events} />
             <AbsoluteImage src={Triangle} top="-20rem" left="-20rem" width="75%" />
           </Section>
-          <div className="index-container">
+          <Section>
+            <H2>Blog</H2>
             <PostListing postEdges={postEdges} />
-          </div>
+          </Section>
         </MaxWidthBox>
       </Layout>
     );

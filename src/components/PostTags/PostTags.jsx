@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import _ from "lodash";
 import { Link } from "gatsby";
+import Tag from "./Tag";
 
 class PostTags extends Component {
   render() {
@@ -14,7 +15,7 @@ class PostTags extends Component {
               style={{ textDecoration: "none" }}
               to={`/tags/${_.kebabCase(tag)}`}
             >
-              <button type="button">{tag}</button>
+              <Tag>{tag}</Tag>
             </Link>
           ))}
       </div>
