@@ -126,8 +126,8 @@ class Index extends React.Component {
             <Events events={events} />
             <AbsoluteImage
               src={Triangle}
-              top="-20rem"
-              left="-20rem"
+              top="-20vh"
+              left="-20vw"
               width="75%"
             />
           </Section>
