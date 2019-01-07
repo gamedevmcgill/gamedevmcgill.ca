@@ -52,26 +52,28 @@ class Index extends React.Component {
       <Layout>
         <Helmet title={config.siteTitle} />
         <SEO />
-        <AbsoluteImage
-          src={Hero}
-          top={0}
-          left={0}
-          imgWidth="100%"
-          minWidth="120rem"
-        />
-        <Flex
-          flexDirection="column"
-          justifyContent="center"
-          css={{ height: "60rem" }}
-        >
-          <MaxWidthBox maxWidth="50rem" ml="10rem">
-            <H1>
-              {/* eslint-disable-next-line */}
-              {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to get
-              your attention.
-            </H1>
-          </MaxWidthBox>
-        </Flex>
+        <header>
+          <AbsoluteImage
+            src={Hero}
+            top={0}
+            left={0}
+            imgWidth="100%"
+            minWidth="120rem"
+          />
+          <Flex
+            flexDirection="column"
+            justifyContent="center"
+            css={{ height: "60rem" }}
+          >
+            <MaxWidthBox maxWidth="50rem" ml="10rem">
+              <H1>
+                {/* eslint-disable-next-line */}
+                {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
+                get your attention.
+              </H1>
+            </MaxWidthBox>
+          </Flex>
+        </header>
         <MaxWidthBox maxWidth="100rem" m="0 auto">
           <Section>
             <H2>About</H2>
