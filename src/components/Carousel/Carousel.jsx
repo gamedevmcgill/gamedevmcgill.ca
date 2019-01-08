@@ -5,6 +5,7 @@ import { Flex, Box } from "@rebass/grid";
 import StyledBox from "../Styled/StyledBox";
 import Title from "./Title";
 import Subtitle from "./Subtitle";
+import Button from "../Styled/Button";
 
 class SimpleSlider extends React.Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class SimpleSlider extends React.Component {
                   <Subtitle>by Hello World</Subtitle>
                 </Box>
                 <Flex alignItems="center">
-                  <button type="button">See on itch.io</button>
+                  <Button secondary>See on itch.io</Button>
                 </Flex>
               </Flex>
             </article>

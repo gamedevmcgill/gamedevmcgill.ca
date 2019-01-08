@@ -20,6 +20,7 @@ import Section from "../components/Styled/Section";
 import Carousel from "../components/Carousel/Carousel";
 import Events from "../components/Events/Events";
 import Team from "../components/Team/Team";
+import Button from "../components/Styled/Button";
 
 const events = [
   {
@@ -71,6 +72,7 @@ class Index extends React.Component {
                 {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
                 get your attention.
               </H1>
+              <Button>See more</Button>
             </MaxWidthBox>
           </Flex>
         </header>
@@ -136,6 +138,9 @@ class Index extends React.Component {
           <Section>
             <H2>Blog</H2>
             <PostListing postEdges={postEdges} />
+            <Flex justifyContent="center">
+              <Button>See more posts</Button>
+            </Flex>
           </Section>
           <Section>
             <H2>Our team</H2>
@@ -170,7 +175,7 @@ class Index extends React.Component {
           </Section>
           <Section>
             <H2>Sponsors</H2>
-            <Flex flexWrap="wrap" justifyContent="center">
+            <Flex flexWrap="wrap" justifyContent="center" mb="8rem">
               <Sponsors
                 sponsors={[
                   {
@@ -181,6 +186,9 @@ class Index extends React.Component {
                   }
                 ]}
               />
+            </Flex>
+            <Flex justifyContent="center">
+              <Button>Interested in sponsoring?</Button>
             </Flex>
           </Section>
         </MaxWidthBox>
