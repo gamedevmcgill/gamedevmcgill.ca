@@ -25,6 +25,9 @@ module.exports = {
         // Add any options here
       }
     },
+    {
+      resolve: "gatsby-plugin-polished"
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-lodash",
     {
