@@ -9,6 +9,7 @@ const Nav = styled.nav`
   height: 6rem;
   width: 100%;
   padding: 1rem 2rem;
+  z-index: 2;
 `;
 
 const Navbar = () => (
