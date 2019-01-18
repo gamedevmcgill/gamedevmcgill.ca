@@ -1,6 +1,10 @@
 import * as React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import MediaQuery from "react-responsive";
 import styled from "styled-components";
+import { Box } from "@rebass/grid";
+
+
 import Wordmark from "../../../static/logos/wordmark.svg";
 import Logo from "../../../static/logos/logo.svg";
 import NavbarItem from "./NavItem";
@@ -16,7 +20,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  filter: drop-shadow(0 0 1.25rem grey);
+  filter: drop-shadow(0 0 1rem grey);
 `;
 
 const sections = [
@@ -48,8 +52,14 @@ const sections = [
 
 const Navbar = () => (
   <Nav>
-    <img src={Wordmark} alt="Game Dev McGill" />
-    <img src={Logo} alt="Game Dev McGill" />
+    <MediaQuery minWidth={900}>
+      <img src={Wordmark} alt="Game Dev McGill desktop logo" />
+    </MediaQuery>
+    <MediaQuery maxWidth={900}>
+      <Box width="6rem">
+        <img src={Logo} alt="Game Dev McGill mobile logo" />
+      </Box>
+    </MediaQuery>
     <ul>
       {sections.map(s => (
         <AnchorLink href={`#${s.id}`} key={s.id}>
