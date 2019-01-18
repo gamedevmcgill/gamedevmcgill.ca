@@ -77,7 +77,7 @@ class Index extends React.Component {
           </Flex>
         </header>
         <MaxWidthBox maxWidth="100rem" m="0 auto">
-          <Section>
+          <Section id="about">
             <H2>About</H2>
             <Flex flexWrap="wrap" alignItems="center">
               <StyledBox p="2rem" width={[1, 1, 1 / 2]}>
@@ -105,7 +105,7 @@ class Index extends React.Component {
               </Box>
             </Flex>
           </Section>
-          <Section>
+          <Section id="games">
             <H2>Our Games</H2>
             <Flex flexWrap="wrap" alignItems="center">
               <Box p="2rem" width={[1, 1, 1 / 2]}>
@@ -125,7 +125,7 @@ class Index extends React.Component {
               </Box>
             </Flex>
           </Section>
-          <Section css={{ position: "relative" }}>
+          <Section css={{ position: "relative" }} id="events">
             <H2>Club Events</H2>
             <Events events={events} />
             <AbsoluteImage
@@ -135,14 +135,14 @@ class Index extends React.Component {
               width="75%"
             />
           </Section>
-          <Section>
+          <Section id="blog">
             <H2>Blog</H2>
             <PostListing postEdges={postEdges} />
             <Flex justifyContent="center">
               <Button>See more posts</Button>
             </Flex>
           </Section>
-          <Section>
+          <Section id="team">
             <H2>Our team</H2>
             <Team
               members={[
@@ -173,7 +173,7 @@ class Index extends React.Component {
               ]}
             />
           </Section>
-          <Section>
+          <Section id="sponsor">
             <H2>Sponsors</H2>
             <Flex flexWrap="wrap" justifyContent="center" mb="8rem">
               <Sponsors
