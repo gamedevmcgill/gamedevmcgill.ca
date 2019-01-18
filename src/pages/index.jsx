@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { graphql } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 import Sponsors from "../components/Sponsors/Sponsors";
@@ -72,7 +73,9 @@ class Index extends React.Component {
                 {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
                 get your attention.
               </H1>
-              <Button>See more</Button>
+              <AnchorLink href="#about">
+                <Button>See more</Button>
+              </AnchorLink>
             </MaxWidthBox>
           </Flex>
         </header>
