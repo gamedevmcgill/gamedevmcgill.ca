@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import "./index.css";
-import Navbar from "../components/Navbar/Navbar";
 import withThemeProvider from "../hoc/ThemeProvider/withThemeProvider";
 
 class MainLayout extends React.Component {
@@ -13,7 +12,6 @@ class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <Navbar />
         {children}
       </div>
     );

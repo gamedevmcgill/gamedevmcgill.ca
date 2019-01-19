@@ -12,6 +12,7 @@ import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Hero from "../../static/assets/hero.svg";
 import Triangle from "../../static/assets/triangle.svg";
+import Navbar from "../components/Navbar/Navbar";
 import H1 from "../components/Styled/H1";
 import H2 from "../components/Styled/H2";
 import Em from "../components/Styled/Em";
@@ -54,6 +55,7 @@ class Index extends React.Component {
       <Layout>
         <Helmet title={config.siteTitle} />
         <SEO />
+        <Navbar />
         <header>
           <AbsoluteImage
             src={Hero}
