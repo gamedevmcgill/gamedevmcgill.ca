@@ -4,8 +4,8 @@ import { transparentize } from "polished";
 const Container = styled.header`
   background: linear-gradient(
       45deg,
-      ${props => transparentize(0.5, props.theme.colors.blue)},
-      ${props => transparentize(0.5, props.theme.colors.green)}
+      ${props => transparentize(0.1, props.theme.colors.blue)},
+      ${props => transparentize(0.1, props.theme.colors.green)}
     ),
     url(${props => props.img});
   display: flex;
