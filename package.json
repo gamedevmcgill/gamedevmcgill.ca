@@ -5,6 +5,7 @@
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
     "@rebass/grid": "^6.0.0-7",
+    "@researchgate/react-intersection-observer": "^0.7.4",
     "babel-plugin-polished": "^1.1.0",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "2.0.40",
@@ -30,6 +31,7 @@
     "gatsby-source-filesystem": "2.0.7",
     "gatsby-transformer-remark": "2.1.11",
     "gatsby-transformer-sharp": "2.1.8",
+    "intersection-observer": "^0.5.1",
     "lodash": "^4.17.4",
     "moment": "^2.22.2",
     "polished": "^2.3.1",

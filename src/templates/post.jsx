@@ -2,14 +2,12 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
-import "./post.css";
+
+import Header from "../components/Header/Header";
+import MaxWidthBox from "../components/Styled/MaxWidthBox";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -32,16 +30,15 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
-            <h1>{post.title}</h1>
+          <Header
+            title={post.title}
+            author={post.author}
+            tags={post.tags}
+            img="https://source.unsplash.com/random/1920x1080"
+          />
+          <MaxWidthBox maxWidth="80rem" m="0 auto" p="6rem 2rem">
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={postNode} />
-            </div>
-            <UserInfo config={config} />
-            <Disqus postNode={postNode} />
-          </div>
+          </MaxWidthBox>
         </div>
       </Layout>
     );
@@ -61,12 +58,9 @@ export const pageQuery = graphql`
         date
         category
         tags
+        author
       }
       fields {
-        nextTitle
-        nextSlug
-        prevTitle
-        prevSlug
         slug
         date
       }
