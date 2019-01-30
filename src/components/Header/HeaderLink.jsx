@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import Observer from "@researchgate/react-intersection-observer";
 import "intersection-observer";
-import MediaQuery from "react-responsive";
 import { Transition } from "react-spring";
 
 import { Flex } from "@rebass/grid";
