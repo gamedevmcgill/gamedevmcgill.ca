@@ -37,7 +37,7 @@ export default class PostTemplate extends React.Component {
             img="https://source.unsplash.com/random/1920x1080"
           />
           <MaxWidthBox maxWidth="60rem" m="0 auto" p="6rem 2rem">
-            <div
+            <article
               style={{ lineHeight: "1.75", letterSpacing: "0.3px" }}
               dangerouslySetInnerHTML={{ __html: postNode.html }}
             />
