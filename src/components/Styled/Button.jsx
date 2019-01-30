@@ -31,7 +31,7 @@ const Button = styled.button.attrs({ type: "button" })`
       ${props =>
         rgba(
           props.secondary
-            ? props.theme.colors.blue
+            ? props.theme.colors.navy
             : props.theme.colors.primary,
           0.25
         )};

@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import Observer from "@researchgate/react-intersection-observer";
 import "intersection-observer";
 import MediaQuery from "react-responsive";
+import { Transition } from "react-spring";
 
 import { Flex } from "@rebass/grid";
 import Button from "../Styled/Button";
@@ -18,14 +19,6 @@ const ReturnLink = styled(Link)`
   transition: 0.8s all ease-out;
   display: flex;
   align-items: center;
-`;
-
-const LinkContainer = styled.div`
-  position: ${props => (props.isFixed ? "fixed" : "absolute")};
-  color: ${props =>
-    props.isFixed ? props.theme.colors.black : props.theme.colors.white};
-  top: 3rem;
-  left: 2rem;
 `;
 
 class ReturnLinkComponent extends React.Component {
@@ -45,30 +38,47 @@ class ReturnLinkComponent extends React.Component {
     const { isVisible } = this.state;
 
     return (
-      <MediaQuery minWidth="80rem">
-        <LinkContainer isFixed={!isVisible}>
-          <ReturnLink to="/">
-            <Button
-              secondary
-              ref={r => {
-                this.button = r;
-              }}
+      <div>
+        <Transition
+          items={!isVisible}
+          from={{ opacity: 0, top: "0rem" }}
+          enter={{ opacity: 1, top: "2rem" }}
+          leave={{ opacity: 0 }}
+        >
+          {toggle => props => (
+            <div
+              style={Object.assign(
+                {
+                  position: toggle ? "fixed" : "absolute",
+                  left: "2rem"
+                },
+                props
+              )}
             >
-              <Flex alignItems="center">
-                <img
-                  src={Logo}
-                  alt="Game Dev McGill"
-                  style={{
-                    width: "3.2rem",
-                    marginRight: "1rem",
-                    filter: "drop-shadow(0 0 0.5rem grey)"
+              <ReturnLink to="/">
+                <Button
+                  secondary
+                  ref={r => {
+                    this.button = r;
                   }}
-                />
-                Back to home
-              </Flex>
-            </Button>
-          </ReturnLink>
-        </LinkContainer>
+                >
+                  <Flex alignItems="center">
+                    <img
+                      src={Logo}
+                      alt="Game Dev McGill"
+                      style={{
+                        width: "3.2rem",
+                        marginRight: "1rem",
+                        filter: "drop-shadow(0 0 0.5rem grey)"
+                      }}
+                    />
+                    Back to home
+                  </Flex>
+                </Button>
+              </ReturnLink>
+            </div>
+          )}
+        </Transition>
         <Observer onChange={this.handleIntersection}>
           <div
             style={{
@@ -80,7 +90,7 @@ class ReturnLinkComponent extends React.Component {
             }}
           />
         </Observer>
-      </MediaQuery>
+      </div>
     );
   }
 }
