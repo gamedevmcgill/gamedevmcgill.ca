@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 
 import Carousel from "../components/Carousel/Carousel";
@@ -61,7 +61,7 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO />
         <Navbar />
-        <header style={{position: "relative" }}>
+        <header style={{ position: "relative" }}>
           <AbsoluteImage
             src={Hero}
             top={0}
@@ -156,7 +156,9 @@ class Index extends React.Component {
             <H2>Blog</H2>
             <PostListing postEdges={postEdges} />
             <Flex justifyContent="center">
-              <Button>See more posts</Button>
+              <Link to="/blog">
+                <Button>See more posts</Button>
+              </Link>
             </Flex>
           </Section>
           <Section id="team">

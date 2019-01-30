@@ -14,10 +14,13 @@ const Header = ({ title, img, author, tags, date }) => (
       <MaxWidthBox maxWidth="80rem" mb="2rem">
         <H1 light>{title}</H1>
       </MaxWidthBox>
-      <PostTags tags={tags} />
-      <Flex justifyContent="space-around" style={{ color: "white", fontSize: "1.4rem", fontWeight: "700" }}>
-        <p>by {author}</p>
-        <p>{date}</p>
+      {tags && <PostTags tags={tags} />}
+      <Flex
+        justifyContent="space-around"
+        style={{ color: "white", fontSize: "1.4rem", fontWeight: "700" }}
+      >
+        {author && <p>by {author}</p>}
+        {date && <p>{date}</p>}
       </Flex>
     </Box>
   </Container>
