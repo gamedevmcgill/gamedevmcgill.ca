@@ -1,28 +1,33 @@
 import React from "react";
-import Helmet from "react-helmet";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
+
+import Carousel from "../components/Carousel/Carousel";
+import Team from "../components/Team/Team";
+import Navbar from "../components/Navbar/Navbar";
+import Events from "../components/Events/Events";
+
 import Sponsors from "../components/Sponsors/Sponsors";
 import MaxWidthBox from "../components/Styled/MaxWidthBox";
 import AbsoluteImage from "../components/Styled/AbsoluteImage";
-import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
-import Hero from "../../static/assets/hero.svg";
-import Triangle from "../../static/assets/triangle.svg";
-import Navbar from "../components/Navbar/Navbar";
 import H1 from "../components/Styled/H1";
 import H2 from "../components/Styled/H2";
 import Em from "../components/Styled/Em";
 import StyledBox from "../components/Styled/StyledBox";
 import Paragraph from "../components/Styled/Paragraph";
 import Section from "../components/Styled/Section";
-import Carousel from "../components/Carousel/Carousel";
-import Events from "../components/Events/Events";
-import Team from "../components/Team/Team";
 import Button from "../components/Styled/Button";
+
+import Layout from "../layout";
+import PostListing from "../components/PostListing/PostListing";
+import SEO from "../components/SEO/SEO";
+import config from "../../data/SiteConfig";
+
+import Hero from "../../static/assets/hero.svg";
+import PixelArt from "../../static/assets/pixel-art.png";
+import Triangle from "../../static/assets/triangle.svg";
 
 const events = [
   {
@@ -56,13 +61,20 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO />
         <Navbar />
-        <header>
+        <header style={{ marginTop: "5rem", position: "relative" }}>
           <AbsoluteImage
             src={Hero}
             top={0}
             left={0}
             imgWidth="100%"
             minWidth="120rem"
+          />
+          <AbsoluteImage
+            src={PixelArt}
+            top={0}
+            left="60%"
+            imgWidth="35%"
+            maxWidth="40rem"
           />
           <Flex
             flexDirection="column"
@@ -75,13 +87,13 @@ class Index extends React.Component {
                 {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
                 get your attention.
               </H1>
-              <AnchorLink href="#about">
+              <AnchorLink offset="100" href="#about">
                 <Button>See more</Button>
               </AnchorLink>
             </MaxWidthBox>
           </Flex>
         </header>
-        <MaxWidthBox maxWidth="100rem" m="0 auto">
+        <MaxWidthBox maxWidth="100rem" m="16rem auto 0">
           <Section id="about">
             <H2>About</H2>
             <Flex flexWrap="wrap" alignItems="center">
