@@ -8,6 +8,7 @@ import "./b16-tomorrow-dark.css";
 
 import Header from "../components/Header/Header";
 import MaxWidthBox from "../components/Styled/MaxWidthBox";
+import StyledBox from "../components/Styled/StyledBox";
 
 export default class PostTemplate extends React.Component {
   render() {
@@ -33,14 +34,20 @@ export default class PostTemplate extends React.Component {
           <Header
             title={post.title}
             author={post.author}
+            date={post.date}
             tags={post.tags}
             img="https://source.unsplash.com/random/1920x1080"
           />
-          <MaxWidthBox maxWidth="60rem" m="0 auto" p="6rem 2rem">
-            <article
-              style={{ lineHeight: "1.75", letterSpacing: "0.3px" }}
-              dangerouslySetInnerHTML={{ __html: postNode.html }}
-            />
+          <MaxWidthBox maxWidth="80rem" m="0 auto 10rem">
+            <StyledBox p="4rem 10rem" mt="-20rem">
+              <article
+                style={{
+                  lineHeight: "1.75",
+                  letterSpacing: "0.3px"
+                }}
+                dangerouslySetInnerHTML={{ __html: postNode.html }}
+              />
+            </StyledBox>
           </MaxWidthBox>
         </div>
       </Layout>

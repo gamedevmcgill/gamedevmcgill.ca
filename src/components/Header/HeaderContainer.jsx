@@ -13,7 +13,7 @@ const Container = styled.header`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  min-height: 40rem;
+  min-height: 50rem;
 `;
 
 export default Container;
