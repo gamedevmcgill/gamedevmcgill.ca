@@ -61,7 +61,7 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO />
         <Navbar />
-        <header style={{ marginTop: "5rem", position: "relative" }}>
+        <header style={{position: "relative" }}>
           <AbsoluteImage
             src={Hero}
             top={0}

@@ -9,13 +9,9 @@ import Logo from "../../../static/logos/logo.svg";
 import NavbarItem from "./NavItem";
 
 const Nav = styled.nav`
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 5rem;
+  height: 8rem;
   width: 100%;
   padding: 1rem 2rem;
-  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
