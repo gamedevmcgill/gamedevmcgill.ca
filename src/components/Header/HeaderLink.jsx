@@ -61,7 +61,6 @@ class ReturnLinkComponent extends React.Component {
             >
               <ReturnLink to="/">
                 <Button
-                  secondary
                   ref={r => {
                     this.button = r;
                   }}
