@@ -2,12 +2,17 @@ import * as React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import Observer from "@researchgate/react-intersection-observer";
-import "intersection-observer";
 import { Transition } from "react-spring";
 
 import { Flex } from "@rebass/grid";
 import Button from "../Styled/Button";
 import Logo from "../../../static/logos/logo.svg";
+
+// https://github.com/gatsbyjs/gatsby/issues/309
+try {
+  // eslint-disable-next-line
+  require("intersection-observer");
+} catch (e) {/* only throws if run server-side */}
 
 const ReturnLink = styled(Link)`
   text-decoration: none;
