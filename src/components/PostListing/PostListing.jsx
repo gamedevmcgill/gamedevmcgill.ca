@@ -21,7 +21,7 @@ try {
 class PostListing extends React.Component {
   static defaultProps = {
     pageSize: 3,
-    scroll: true
+    isInfinite: true
   };
 
   constructor(props) {
@@ -47,8 +47,8 @@ class PostListing extends React.Component {
 
   handleIntersection(event) {
     const { shown } = this.state;
-    const { pageSize } = this.props;
-    if (event.isIntersecting) {
+    const { pageSize, isInfinite } = this.props;
+    if (isInfinite && event.isIntersecting) {
       this.setState({ shown: shown + pageSize });
     }
   }

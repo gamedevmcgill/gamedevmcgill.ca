@@ -154,7 +154,7 @@ class Index extends React.Component {
           </Section>
           <Section id="blog">
             <H2>Blog</H2>
-            <PostListing postEdges={postEdges} />
+            <PostListing postEdges={postEdges} isInfinite={false} />
             <Flex justifyContent="center">
               <Link to="/blog">
                 <Button>See more posts</Button>
