@@ -72,16 +72,17 @@ class Index extends React.Component {
           <AbsoluteImage
             src={PixelArt}
             top={0}
-            left="60%"
+            left="50%"
             imgWidth="35%"
             maxWidth="40rem"
+            minWidth="30rem"
           />
           <Flex
             flexDirection="column"
             justifyContent="center"
             css={{ height: "60rem" }}
           >
-            <MaxWidthBox maxWidth="50rem" ml="10rem">
+            <MaxWidthBox maxWidth="50rem" ml={["2rem", "10rem"]}>
               <H1>
                 {/* eslint-disable-next-line */}
                 {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
