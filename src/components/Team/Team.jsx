@@ -9,7 +9,7 @@ const Team = ({ members }) => (
   <Flex flexWrap="wrap">
     {members &&
       members.map(m => (
-        <Box m="2rem" width={[1, "45%", "28%"]}>
+        <Box m="2rem" width={[1, "45%", "28%"]} key={m.name}>
           <article>
             <Flex flexDirection="column" alignItems="center">
               <Portrait src={m.portrait} />
