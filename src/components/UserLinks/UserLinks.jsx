@@ -3,7 +3,10 @@ import "./UserLinks.css";
 
 class UserLinks extends Component {
   getLinkElements() {
-    const { config: userLinks, labeled } = this.props;
+    const {
+      config: { userLinks },
+      labeled
+    } = this.props;
     return userLinks.map(link => (
       <button type="button" key={link.label} href={link.url}>
         {labeled ? link.label : ""}
@@ -14,7 +17,7 @@ class UserLinks extends Component {
   render() {
     const {
       config: { userLinks }
-    } = this.prop;
+    } = this.props;
     if (!userLinks) {
       return null;
     }
