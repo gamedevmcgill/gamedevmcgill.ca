@@ -7,7 +7,7 @@ const UserLink = styled.a`
   letter-spacing: 2px;
   transition: 0.2s all ease-in;
   &:hover {
-    color: ${props => props.theme.colors.orange};
+    color: ${props => props.theme.colors.green};
   }
 `
 export default UserLink;
