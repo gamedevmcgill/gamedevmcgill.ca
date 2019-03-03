@@ -31,6 +31,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/posts/" } }
     ) {
       totalCount
       edges {
