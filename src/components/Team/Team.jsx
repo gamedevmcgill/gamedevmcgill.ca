@@ -10,9 +10,10 @@ const Team = ({ members }) => (
     {members &&
       members.map(m => (
         <Box m="2rem 0" width={[1, "50%", "33%"]} key={m.name}>
+          {console.log(m.name, m.portrait)}
           <article>
             <Flex flexDirection="column" alignItems="center">
-              <Portrait src={m.portrait} />
+              <Portrait src={m.portrait.publicURL} />
               <Name>{m.name}</Name>
               <Position>POSITION: {m.position}</Position>
               <Game>

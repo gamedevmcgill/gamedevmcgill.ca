@@ -55,7 +55,8 @@ const events = [
 class Index extends React.Component {
   render() {
     const { data } = this.props;
-    const postEdges = data.allMarkdownRemark.edges;
+    const postEdges = data.posts.edges;
+    const { executives } = data.execs.frontmatter;
     return (
       <Layout>
         <Helmet title={config.siteTitle} />
@@ -164,34 +165,7 @@ class Index extends React.Component {
           </Section>
           <Section id="team">
             <H2>Our team</H2>
-            <Team
-              members={[
-                {
-                  name: "Elie Harfouche",
-                  position: "President",
-                  game: "Maplestory",
-                  portrait: "https://source.unsplash.com/random/300x300"
-                },
-                {
-                  name: "Elie Harfouche",
-                  position: "President",
-                  game: "Maplestory",
-                  portrait: "https://source.unsplash.com/random/300x300"
-                },
-                {
-                  name: "Elie Harfouche",
-                  position: "President",
-                  game: "Maplestory",
-                  portrait: "https://source.unsplash.com/random/300x300"
-                },
-                {
-                  name: "Elie Harfouche",
-                  position: "President",
-                  game: "Maplestory",
-                  portrait: "https://source.unsplash.com/random/300x300"
-                }
-              ]}
-            />
+            <Team members={executives} />
           </Section>
           <Section id="sponsor">
             <H2>Sponsors</H2>
@@ -222,9 +196,10 @@ export default Index;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(
-      limit: 2000
+    posts: allMarkdownRemark(
+      limit: 3
       sort: { fields: [fields___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/posts/" } }
     ) {
       edges {
         node {
@@ -239,6 +214,18 @@ export const pageQuery = graphql`
             tags
             cover
             date
+          }
+        }
+      }
+    }
+    execs: markdownRemark(fileAbsolutePath: { regex: "/executives/" }) {
+      frontmatter {
+        executives {
+          name
+          position
+          game
+          portrait {
+            publicURL
           }
         }
       }
