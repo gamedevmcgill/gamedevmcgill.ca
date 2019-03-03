@@ -23,7 +23,7 @@ import Button from "../components/Styled/Button";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
+import config from "../../config/SiteConfig";
 
 import Hero from "../../static/assets/hero.svg";
 import PixelArt from "../../static/assets/pixel-art.png";

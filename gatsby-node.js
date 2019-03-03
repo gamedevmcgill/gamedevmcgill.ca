@@ -1,7 +1,7 @@
 const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
-const siteConfig = require("./data/SiteConfig");
+const siteConfig = require("./config/SiteConfig");
 
 const postNodes = [];
 

@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 import Header from "../components/Header/Header";
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
+import config from "../../config/SiteConfig";
 
 class BlogPage extends Component {
   render() {

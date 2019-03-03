@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
+import config from "../../config/SiteConfig";
 import "./b16-tomorrow-dark.css";
 
 import Header from "../components/Header/Header";
