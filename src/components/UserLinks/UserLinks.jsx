@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import "./UserLinks.css";
+import UserLink from "./UserLink";
 
 class UserLinks extends Component {
   getLinkElements() {
     const {
-      config: { userLinks },
-      labeled
+      config: { userLinks }
     } = this.props;
     return userLinks.map(link => (
-      <button type="button" key={link.label} href={link.url}>
-        {labeled ? link.label : ""}
-      </button>
+      <li>
+        <UserLink href={link.url}>{link.label}</UserLink>
+      </li>
     ));
   }
 
@@ -21,7 +21,13 @@ class UserLinks extends Component {
     if (!userLinks) {
       return null;
     }
-    return <div className="user-links">{this.getLinkElements()}</div>;
+    return (
+      <article>
+        <ul style={{ margin: "0", padding: "0", listStyle: "none" }}>
+          {this.getLinkElements()}
+        </ul>
+      </article>
+    );
   }
 }
 

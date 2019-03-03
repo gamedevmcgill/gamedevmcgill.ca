@@ -22,19 +22,20 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
-      iconClassName: "fa fa-github"
+      label: "facebook",
+      url: "https://facebook.com/gamedevmcgill",
     },
     {
-      label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
+      label: "github",
+      url: "https://github.com/gamedevmcgill",
     },
     {
-      label: "Email",
-      url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
+      label: "itch.io",
+      url: "https://gamedevmcgill.itch.io/",
+    },
+    {
+      label: "email",
+      url: "mailto:gamedev@mcgilleus.ca",
     }
   ],
   copyright: "Copyright © 2017. Advanced User", // Copyright string for the footer of the website and RSS feed.

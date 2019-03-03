@@ -1,35 +1,35 @@
 import React, { Component } from "react";
-import { Link } from "gatsby";
+import styled from "styled-components";
+import { Box } from "@rebass/grid";
+import Logo from "../../../static/logos/wordmark.svg";
+
 import UserLinks from "../UserLinks/UserLinks";
-import "./Footer.css";
+
+const FooterContainer = styled.footer`
+  background: ${props => props.theme.colors.black};
+  min-height: 24rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`;
 
 class Footer extends Component {
   render() {
     const { config } = this.props;
-    const url = config.siteRss;
     const { copyright } = config;
     if (!copyright) {
       return null;
     }
     return (
-      <footer className="footer">
-        <UserLinks config={config} labeled />
-        <div className="notice-container">
-          <h4>{copyright}</h4>
-
-          <Link to={url}>
-            <button type="button">Subscribe</button>
-          </Link>
-          <h4>
-            Based on
-            {" "}
-            <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
-              Gatsby Advanced Starter
-            </a>
-            .
-          </h4>
-        </div>
-      </footer>
+      <FooterContainer className="footer">
+        <Box width={[1, 1 / 2]} p="4rem">
+          <img style={{ width: "40rem" }} src={Logo} alt="Footer logo" />
+        </Box>
+        <Box width={[1, 1 / 2]} p="4rem">
+          <UserLinks config={config} labeled />
+        </Box>
+        <div>{copyright}</div>
+      </FooterContainer>
     );
   }
 }
