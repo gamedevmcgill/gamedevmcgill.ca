@@ -29,26 +29,36 @@ import Hero from "../../static/assets/hero.svg";
 import PixelArt from "../../static/assets/pixel-art.png";
 import Triangle from "../../static/assets/triangle.svg";
 
+import Photo from "../../static/assets/gamedev.jpg";
+import Game from "../../static/assets/gamepad.svg";
+import Class from "../../static/assets/class.svg";
+import Social from "../../static/assets/laugh.svg";
+import Other from "../../static/assets/dance.svg";
+
 const events = [
   {
     title: "McGameJam",
-    image: "https://source.unsplash.com/random/800x600",
-    description: "Hello"
+    image: Game,
+    description:
+      "The 2nd largest video game hackathon in Quebec, where attendees have 48 hours to create a game based on a chosen theme."
   },
   {
     title: "Tutorials",
-    image: "https://source.unsplash.com/random/800x600",
-    description: "Hello"
+    image: Class,
+    description:
+      "Game development workshops of all levels, from introduction to game development to game engine architecture and computer graphics."
   },
   {
     title: "Game Dev Social",
-    image: "https://source.unsplash.com/random/800x600",
-    description: "Hello"
+    image: Social,
+    description:
+      "Monthly meetups where our members share the projects they've been working on and socialize with each other."
   },
   {
-    title: "Watch n Learn",
-    image: "https://source.unsplash.com/random/800x600",
-    description: "Hello"
+    title: "Other Stuff",
+    image: Other,
+    description:
+      "We have miscellaneous events throughout the year where we watch game dev talks, go out together, and present our games to the public!"
   }
 ];
 
@@ -106,20 +116,19 @@ class Index extends React.Component {
                     width: "100%",
                     height: "100%"
                   }}
-                  src="https://source.unsplash.com/random/800x600"
-                  alt="Random"
+                  src={Photo}
+                  alt="Members showing off a VR game"
                 />
               </StyledBox>
               <Box p="2rem" width={[1, 1, 1 / 2]}>
                 <Paragraph>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  We are Game Dev McGill, the game development student society
+                  of McGill University. We are a group of students that are
+                  passionate about creating games and enjoy learning new aspects
+                  of game development. We hold events to fuel the creativity of
+                  our members and provide them with the resources to improve
+                  their game development skills. We welcome all students
+                  regardless of experience level!
                 </Paragraph>
               </Box>
             </Flex>
@@ -127,16 +136,13 @@ class Index extends React.Component {
           <Section id="games">
             <H2>Our Games</H2>
             <Flex flexWrap="wrap" alignItems="center">
-              <Box p="2rem" width={[1, 1, 1 / 2]}>
+              <Box p="2rem" width={[1, 1, 1 / 2]} alignSelf="flex-start">
                 <Paragraph>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  At Game Dev McGill, we require all members to keep working on
+                  games every semester, whether they’re for personal projects or
+                  made as part of game development events. Our own events
+                  include internal monthly game jams, our yearly McGameJam, and
+                  participating in Ubisoft’s GameLabs competition.
                 </Paragraph>
               </Box>
               <Box p="2rem" width={[1, 1, 1 / 2]}>
@@ -149,9 +155,9 @@ class Index extends React.Component {
             <Events events={events} />
             <AbsoluteImage
               src={Triangle}
-              top="-20vh"
+              top="-30vh"
               left="-20vw"
-              width="75%"
+              width="100%"
             />
           </Section>
           <Section id="blog">

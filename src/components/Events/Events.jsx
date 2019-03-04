@@ -20,14 +20,7 @@ const Events = ({ events }) => (
               src={e.image}
               alt={e.title}
             />
-            <Paragraph small>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </Paragraph>
+            <Paragraph small>{e.description}</Paragraph>
           </Flex>
         </article>
       </StyledBox>
