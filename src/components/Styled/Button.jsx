@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { rgba } from "polished";
 
 const Button = styled.button.attrs({ type: "button" })`
-  padding: 1.2rem 2rem;
+  padding: 1.6rem 2rem;
   min-width: 12rem;
   border-radius: 6rem;
   text-transform: uppercase;
