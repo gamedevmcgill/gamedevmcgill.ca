@@ -1,20 +1,28 @@
 import styled from "styled-components";
 
 const Tag = styled.div`
-  font-weight: 300;
-  background: ${props => props.theme.colors.green};
+  font-weight: 600;
+  background: ${props => props.theme.colors.blue};
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 1.6rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
+  min-width: 8rem;
   padding: 0.4rem 1rem;
   display: inline-block;
   font-size: 1.2rem;
   color: ${props => props.theme.colors.black};
   cursor: pointer;
-  transition: 0.2s background ease-in-out;
+  text-align: center;
+  transition: 0.2s all ease-in-out;
   &:hover {
-    background: ${props => props.theme.colors.blue};
+    box-shadow: 0.1rem 0.4rem 1rem ${props => props.theme.colors.black};
+    background: linear-gradient(
+        45deg,
+        ${props => props.theme.colors.blue},
+        ${props => props.theme.colors.green}
+      ),
+      ${props => props.theme.colors.blue};
   }
 `;
 

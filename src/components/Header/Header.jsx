@@ -11,16 +11,20 @@ const Header = ({ title, img, author, tags, date }) => (
   <Container img={img}>
     <ReturnLink />
     <Box mb="20rem">
-      <MaxWidthBox maxWidth="80rem" mb="2rem">
-        <H1 style={{ marginBottom: "0.4rem" }}>{title}</H1>
-        <Flex
-          justifyContent="space-around"
-          style={{ fontSize: "1.4rem", fontWeight: "700" }}
-        >
-          {author && <p>by {author}</p>}
-          {date && <p>{date}</p>}
-        </Flex>
+      <MaxWidthBox maxWidth="80rem">
+        <H1 style={{ marginBottom: "0.4rem" }} color="light">
+          {title}
+        </H1>
       </MaxWidthBox>
+      <Flex
+        justifyContent="flex-end"
+        mb="3rem"
+        style={{ fontSize: "1.4rem", letterSpacing: "1px" }}
+      >
+        <span>
+          by {author && <strong>author</strong>} {date && `on ${date}`}
+        </span>
+      </Flex>
       {tags && <PostTags tags={tags} />}
     </Box>
   </Container>
