@@ -22,7 +22,7 @@ const Header = ({ title, img, author, tags, date }) => (
         style={{ fontSize: "1.4rem", letterSpacing: "1px" }}
       >
         <span>
-          by {author && <strong>author</strong>} {date && `on ${date}`}
+          {author && <strong>by {author}</strong>} {date && `on ${date}`}
         </span>
       </Flex>
       {tags && <PostTags tags={tags} />}

@@ -16,7 +16,6 @@ const Tag = styled.div`
   text-align: center;
   transition: 0.2s all ease-in-out;
   &:hover {
-    box-shadow: 0.1rem 0.4rem 1rem ${props => props.theme.colors.black};
     background: linear-gradient(
         45deg,
         ${props => props.theme.colors.blue},
