@@ -8,7 +8,7 @@ class UserLinks extends Component {
       config: { userLinks }
     } = this.props;
     return userLinks.map(link => (
-      <li>
+      <li key={link.label}>
         <UserLink href={link.url}>{link.label}</UserLink>
       </li>
     ));
