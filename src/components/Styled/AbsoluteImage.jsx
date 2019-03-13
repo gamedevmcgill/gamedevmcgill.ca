@@ -11,7 +11,7 @@ const AbsoluteImage = styled.img`
   min-width: ${props => props.minWidth};
   max-width: ${props => props.maxWidth};
   height: auto;
-  z-index: -2;
+  z-index: ${props => props.zIndex || -2};
 `;
 
 export default AbsoluteImage;
