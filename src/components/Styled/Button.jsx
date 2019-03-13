@@ -6,7 +6,7 @@ const Button = styled.button.attrs({ type: "button" })`
   min-width: 12rem;
   border-radius: 5rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   border: none;

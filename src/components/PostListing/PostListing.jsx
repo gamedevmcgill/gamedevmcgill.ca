@@ -24,7 +24,7 @@ const ListingHeader = styled(Link)`
   text-transform: uppercase;
   text-decoration: none;
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 800;
   display: inline-block;
 
   position: relative;

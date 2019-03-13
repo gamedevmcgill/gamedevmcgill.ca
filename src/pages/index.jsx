@@ -93,7 +93,7 @@ class Index extends React.Component {
         </header>
         <MaxWidthBox maxWidth="90rem" m="auto">
           <Flex flexDirection="column">
-            <MaxWidthBox maxWidth="50rem" m="20rem 0" p="1rem">
+            <MaxWidthBox maxWidth="50rem" m="20rem 0 30rem" p="1rem">
               <H1>
                 {"At GDM, we build "}
                 <br />

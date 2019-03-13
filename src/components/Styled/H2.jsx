@@ -4,7 +4,7 @@ import { Flex } from "@rebass/grid";
 
 const H2 = styled.h2`
   font-size: 4.8rem;
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
   text-transform: lowercase;
   letter-spacing: 0.4rem;
