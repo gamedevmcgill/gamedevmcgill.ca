@@ -1,6 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Helmet from "react-helmet";
+import MediaQuery from "react-responsive";
 import { graphql, Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 
@@ -149,12 +150,14 @@ class Index extends React.Component {
           <Section css={{ position: "relative" }} id="events">
             <H2>Club Events</H2>
             <Events events={events} />
-            <AbsoluteImage
-              src={Triangle}
-              top="-70vh"
-              left="-40vw"
-              width="140%"
-            />
+            <MediaQuery maxWidth="160rem">
+              <AbsoluteImage
+                src={Triangle}
+                top="-70vh"
+                left="-40vw"
+                width="140%"
+              />
+            </MediaQuery>
           </Section>
           <Section id="blog">
             <H2>Blog</H2>
