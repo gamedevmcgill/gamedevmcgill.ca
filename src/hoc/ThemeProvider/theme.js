@@ -16,6 +16,4 @@ const gradients = {
 
 const theme = { colors, gradients };
 
-console.log(theme);
-
 export default theme;
