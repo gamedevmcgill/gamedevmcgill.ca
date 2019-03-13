@@ -11,7 +11,7 @@ class SimpleSlider extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: [1, 2, 3, 4, 5]
+      items: props.games
     };
   }
 
@@ -33,18 +33,22 @@ class SimpleSlider extends React.Component {
                 style={{
                   objectFit: "contain",
                   width: "100%",
-                  height: "100%"
+                  height: "100%",
                 }}
-                src="https://source.unsplash.com/random/600x400"
-                alt="Random"
+                src={i.cover_url}
+                alt={i.title}
               />
               <Flex justifyContent="space-around" m="1rem 0">
                 <Box>
-                  <Title>Lorem Ipsum</Title>
-                  <Subtitle>by Hello World</Subtitle>
+                  <Title>{i.title}</Title>
+                  <Subtitle>
+                    by&nbsp;<a href={i.user.url}>{i.user.display_name}</a>
+                  </Subtitle>
                 </Box>
                 <Flex alignItems="center">
-                  <Button secondary>See on itch.io</Button>
+                  <a href={i.url}>
+                    <Button secondary>See on itch.io</Button>
+                  </a>
                 </Flex>
               </Flex>
             </article>

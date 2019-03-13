@@ -68,6 +68,8 @@ class Index extends React.Component {
   render() {
     const { data } = this.props;
     const postEdges = data.posts.edges;
+    const gameEdges = data.games.edges;
+    const games = gameEdges.map(edge => edge.node);
     const { executives } = data.execs.frontmatter;
     return (
       <Layout>
@@ -166,7 +168,7 @@ class Index extends React.Component {
                 </Paragraph>
               </Box>
               <Box p="2rem" width={[1, 1, 1 / 2]}>
-                <Carousel />
+                <Carousel games={games} />
               </Box>
             </Flex>
           </Section>
@@ -255,6 +257,19 @@ export const pageQuery = graphql`
           portrait {
             publicURL
           }
+        }
+      }
+    }
+    games: allItchioGame(limit: 10) {
+      edges {
+        node {
+          url
+          user {
+            display_name
+            url
+          }
+          title
+          cover_url
         }
       }
     }
