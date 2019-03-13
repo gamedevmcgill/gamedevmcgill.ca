@@ -2,6 +2,7 @@ import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Helmet from "react-helmet";
 import MediaQuery from "react-responsive";
+import Typed from "react-typed";
 import { graphql, Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 
@@ -94,9 +95,31 @@ class Index extends React.Component {
           <Flex flexDirection="column">
             <MaxWidthBox maxWidth="50rem" m="20rem 0" p="1rem">
               <H1>
-                {/* eslint-disable-next-line */}
-                {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
-                get your attention.
+                {"At GDM, we build "}
+                <br />
+                <Em>
+                  <Typed
+                    strings={[
+                      "adventures.",
+                      "puzzles.",
+                      "challenges.",
+                      "shooters.",
+                      "simulators.",
+                      "platformers.",
+                      "roguelikes.",
+                      "cookie clickers.",
+                      "visual novels.",
+                      "shaders.",
+                      "3D art.",
+                      "video games."
+                    ]}
+                    typeSpeed={40}
+                    backSpeed={30}
+                    backDelay={500}
+                    smartBackspace
+                    loop
+                  />
+                </Em>
               </H1>
               <AnchorLink offset="100" href="#about">
                 <Button>See more</Button>
