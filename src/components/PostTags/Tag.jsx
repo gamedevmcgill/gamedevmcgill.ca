@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { rgba } from "polished";
 
 const Tag = styled.div`
   font-weight: 600;
@@ -14,10 +15,12 @@ const Tag = styled.div`
   color: ${props => props.theme.colors.white};
   cursor: pointer;
   text-align: center;
-  transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in;
 
   &:hover {
     background: ${props => props.theme.gradients.primary};
+    box-shadow: -0.04rem -0.04rem 0.3rem 0.3rem
+      ${props => rgba(props.theme.colors.primary, 0.25)};
   }
 `;
 

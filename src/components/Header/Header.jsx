@@ -30,7 +30,7 @@ const Header = ({ title, img, author, tags, date, tall }) => {
       <Box mb={tall && "24rem"}>
         <MaxWidthBox maxWidth="80rem">
           <H1 style={{ marginBottom: "0.4rem" }}>
-            <Em>{title}</Em>
+            <Em gradient="secondary">{title}</Em>
           </H1>
         </MaxWidthBox>
         <Flex

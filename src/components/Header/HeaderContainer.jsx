@@ -7,8 +7,9 @@ const Container = styled.header`
       return `
       linear-gradient(
           45deg,
-          ${transparentize(0.2, props.theme.colors.black)},
-          ${transparentize(0.5, props.theme.colors.black)}
+          ${transparentize(0.05, props.theme.colors.black)},
+          ${transparentize(0.1, props.theme.colors.black)} 60%,
+          ${transparentize(0.9, props.theme.colors.black)} 99%
         ),
         url(${props.img});
       `;
@@ -22,6 +23,20 @@ const Container = styled.header`
   flex-direction: column;
   text-align: center;
   min-height: ${props => props.tall ? '50rem' : '30rem'};
+  width: calc(100% - 2rem);
+  border-bottom-right-radius: 12rem;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: calc(100% + 2rem);
+    z-index: -1;
+    content: "";
+    background: ${props => props.theme.gradients.secondary}
+  }
 `;
 
 export default Container;

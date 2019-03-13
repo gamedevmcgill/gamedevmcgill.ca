@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Em = styled.em`
-  background: ${props => props.theme.gradients.primary};
+  background: ${props => props.theme.gradients[props.gradient || "primary"]};
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

@@ -43,8 +43,8 @@ export default class PostTemplate extends React.Component {
             <StyledBox p="4rem 10rem" mt="-20rem">
               <article
                 style={{
-                  lineHeight: "1.75",
-                  letterSpacing: "0.3px"
+                  lineHeight: "1.5",
+                  letterSpacing: "0.5px"
                 }}
                 dangerouslySetInnerHTML={{ __html: postNode.html }}
               />

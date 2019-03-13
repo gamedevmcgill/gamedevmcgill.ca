@@ -14,6 +14,12 @@ const gradients = {
   secondary: `linear-gradient(to top right,${colors.blue},${colors.green})`
 };
 
-const theme = { colors, gradients };
+const other = {
+  boxShadow: `0 20px 20px rgba(0, 0, 0, 0.1);`
+};
+
+const theme = { colors, gradients, ...other };
+
+console.log(theme);
 
 export default theme;
