@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 const Em = styled.em`
-  background: ${props => `linear-gradient(
-          45deg,
-          ${props.theme.colors.primary},
-          ${props.theme.colors.orange}
-        )`};
+  background: ${props => props.theme.gradients.primary};
   background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;

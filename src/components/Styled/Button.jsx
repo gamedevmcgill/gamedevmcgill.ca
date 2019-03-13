@@ -15,16 +15,8 @@ const Button = styled.button.attrs({ type: "button" })`
   transition: all 0.2s ease-in-out;
   background: ${props =>
     props.secondary
-      ? `linear-gradient(
-          45deg,
-          ${props.theme.colors.blue},
-          ${props.theme.colors.green}
-        )`
-      : `linear-gradient(
-          45deg,
-          ${props.theme.colors.primary},
-          ${props.theme.colors.orange}
-        )`};
+      ? props.theme.gradients.secondary
+      : props.theme.gradients.primary};
   &:hover {
     transform: translate(0.05rem, -0.1rem);
     box-shadow: -0.02rem 0.6rem 0.6rem

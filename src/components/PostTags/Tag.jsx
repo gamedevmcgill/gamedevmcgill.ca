@@ -15,13 +15,9 @@ const Tag = styled.div`
   cursor: pointer;
   text-align: center;
   transition: 0.2s all ease-in-out;
+
   &:hover {
-    background: linear-gradient(
-        45deg,
-        ${props => props.theme.colors.primary},
-        ${props => props.theme.colors.orange}
-      ),
-      ${props => props.theme.colors.primary};
+    background: ${props => props.theme.gradients.primary};
   }
 `;
 

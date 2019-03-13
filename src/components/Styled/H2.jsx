@@ -20,11 +20,7 @@ const H2 = styled.h2`
     height: 3rem;
     top: 3.5rem;
     left: -1rem;
-    background: ${props => `linear-gradient(
-          45deg,
-          ${props.theme.colors.blue},
-          ${props.theme.colors.green}
-        )`};
+    background: ${props => props.theme.gradients.secondary};
     z-index: -1;
   }
 `;

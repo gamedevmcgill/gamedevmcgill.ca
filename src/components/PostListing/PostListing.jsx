@@ -39,11 +39,7 @@ const ListingHeader = styled(Link)`
     top: 0;
     bottom: 0;
     z-index: 2;
-    background: ${props => `linear-gradient(
-          45deg,
-          ${props.theme.colors.primary},
-          ${props.theme.colors.orange}
-        )`};
+    background: ${props => props.theme.gradients.primary};
     transform: translateX(-200%);
   }
 
