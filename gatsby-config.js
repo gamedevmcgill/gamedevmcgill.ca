@@ -1,12 +1,19 @@
 const urljoin = require("url-join");
 const config = require("./config/SiteConfig");
+require("dotenv").config();
 
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
+    siteUrl: urljoin(config.siteUrl, config.pathPrefix)
   },
   plugins: [
+    {
+      resolve: "gatsby-source-itchio",
+      options: {
+        key: process.env.ITCHIO_KEY
+      }
+    },
     {
       resolve: "gatsby-plugin-styled-components",
       options: {
