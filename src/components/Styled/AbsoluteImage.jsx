@@ -7,10 +7,11 @@ const AbsoluteImage = styled.img`
   bottom: ${props => props.bottom};
   left: ${props => props.left};
   width: ${props => props.imgWidth};
+  min-height: ${props => props.minHeight};
   min-width: ${props => props.minWidth};
   max-width: ${props => props.maxWidth};
   height: auto;
-  z-index: -1;
+  z-index: -2;
 `;
 
 export default AbsoluteImage;

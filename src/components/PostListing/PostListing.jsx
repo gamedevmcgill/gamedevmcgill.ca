@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import { Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 import { FaClock, FaRegCalendarAlt } from "react-icons/fa";
@@ -17,6 +18,41 @@ try {
 } catch (e) {
   /* only throws if run server-side */
 }
+
+const ListingHeader = styled(Link)`
+  color: ${props => props.theme.colors.black};
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: inline-block;
+
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: all 0.4s ease-in-out;
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    background: ${props => `linear-gradient(
+          45deg,
+          ${props.theme.colors.primary},
+          ${props.theme.colors.orange}
+        )`};
+    transform: translateX(-200%);
+  }
+
+  &:hover {
+    &::after {
+      transform: translateX(30%);
+    }
+  }
+`;
 
 class PostListing extends React.Component {
   static defaultProps = {
@@ -61,6 +97,7 @@ class PostListing extends React.Component {
         {/* Your post list here. */
         postList.slice(0, shown).map(post => (
           <StyledBox
+            hoverable
             mb="4rem"
             p="3rem"
             key={post.path}
@@ -69,9 +106,9 @@ class PostListing extends React.Component {
             <article>
               <Flex>
                 <Box width={2 / 3} pr="2rem">
-                  <Link to={post.path} key={post.title}>
-                    <h1>{post.title}</h1>
-                  </Link>
+                  <ListingHeader to={post.path} key={post.title}>
+                    {post.title}
+                  </ListingHeader>
                   <Paragraph small>{post.excerpt}</Paragraph>
                   <PostTags tags={post.tags} />
                   <Flex justifyContent="flex-end">

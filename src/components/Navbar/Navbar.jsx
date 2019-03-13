@@ -9,6 +9,8 @@ import Logo from "../../../static/logos/logo.svg";
 import NavbarItem from "./NavItem";
 
 const Nav = styled.nav`
+  position: fixed;
+  z-index: 10;
   height: 8rem;
   width: 100%;
   padding: 1rem 2rem;

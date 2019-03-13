@@ -49,7 +49,7 @@ const events = [
       "Game development workshops of all levels, from introduction to game development to game engine architecture and computer graphics."
   },
   {
-    title: "Game Dev Social",
+    title: "GDM Social",
     image: Social,
     description:
       "Monthly meetups where our members share the projects they've been working on and socialize with each other."
@@ -77,8 +77,8 @@ class Index extends React.Component {
             src={Hero}
             top={0}
             left={0}
-            imgWidth="100%"
-            minWidth="120rem"
+            minHeight="80rem"
+            minWidth="100%"
           />
           <AbsoluteImage
             src={PixelArt}
@@ -88,12 +88,10 @@ class Index extends React.Component {
             maxWidth="40rem"
             minWidth="30rem"
           />
-          <Flex
-            flexDirection="column"
-            justifyContent="center"
-            css={{ height: "60rem" }}
-          >
-            <MaxWidthBox maxWidth="50rem" ml={["2rem", "10rem"]}>
+        </header>
+        <MaxWidthBox maxWidth="90rem" m="auto">
+          <Flex flexDirection="column">
+            <MaxWidthBox maxWidth="50rem" m="20rem 0" p="1rem">
               <H1>
                 {/* eslint-disable-next-line */}
                 {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
@@ -104,8 +102,6 @@ class Index extends React.Component {
               </AnchorLink>
             </MaxWidthBox>
           </Flex>
-        </header>
-        <MaxWidthBox maxWidth="100rem" m="16rem auto 0">
           <Section id="about">
             <H2>About</H2>
             <Flex flexWrap="wrap" alignItems="center">
@@ -155,9 +151,9 @@ class Index extends React.Component {
             <Events events={events} />
             <AbsoluteImage
               src={Triangle}
-              top="-30vh"
-              left="-20vw"
-              width="100%"
+              top="-70vh"
+              left="-40vw"
+              width="140%"
             />
           </Section>
           <Section id="blog">

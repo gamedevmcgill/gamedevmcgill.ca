@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { rgba } from "polished";
 
 const Button = styled.button.attrs({ type: "button" })`
-  padding: 1.6rem 2rem;
+  padding: 1.2rem 2rem;
   min-width: 12rem;
-  border-radius: 6rem;
+  border-radius: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
@@ -27,7 +27,7 @@ const Button = styled.button.attrs({ type: "button" })`
         )`};
   &:hover {
     transform: translate(0.05rem, -0.1rem);
-    box-shadow: -0.05rem 0.4rem 0.4rem
+    box-shadow: -0.02rem 0.6rem 0.6rem
       ${props =>
         rgba(
           props.secondary
