@@ -14,7 +14,7 @@ export default class TagTemplate extends React.Component {
     const postEdges = data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <div className="tag-container">
+        <div>
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
           <PostListing postEdges={postEdges} />
         </div>
