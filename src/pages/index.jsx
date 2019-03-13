@@ -84,7 +84,7 @@ class Index extends React.Component {
           />
           <AbsoluteImage
             src={PixelArt}
-            top={0}
+            top="6rem"
             left="50%"
             imgWidth="35%"
             maxWidth="40rem"
