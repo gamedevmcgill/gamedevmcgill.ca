@@ -5,6 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 import Container from "./HeaderContainer";
 import ReturnLink from "./HeaderLink";
+import Em from "../Styled/Em";
 import H1 from "../Styled/H1";
 import PostTags from "../PostTags/PostTags";
 import MaxWidthBox from "../Styled/MaxWidthBox";
@@ -17,19 +18,19 @@ try {
   /* only throws if run server-side */
 }
 
-const Header = ({ title, img, author, tags, date }) => {
+const Header = ({ title, img, author, tags, date, tall }) => {
   const [ref, inView] = useInView();
 
   return (
-    <Container img={img} ref={ref}>
+    <Container img={img} ref={ref} tall={tall}>
       <MediaQuery minWidth={1100}>
         <ReturnLink inView={inView} />
       </MediaQuery>
 
-      <Box mb="20rem">
+      <Box mb={tall && "24rem"}>
         <MaxWidthBox maxWidth="80rem">
-          <H1 style={{ marginBottom: "0.4rem" }} color="light">
-            {title}
+          <H1 style={{ marginBottom: "0.4rem" }}>
+            <Em>{title}</Em>
           </H1>
         </MaxWidthBox>
         <Flex

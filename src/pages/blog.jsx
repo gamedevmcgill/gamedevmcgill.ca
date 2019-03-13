@@ -15,7 +15,7 @@ class BlogPage extends Component {
       <Layout>
         <Helmet title={`Blog | ${config.siteTitle}`} />
         <Header title="Blog Posts" />
-        <Box mt="-25rem">
+        <Box m="10rem 0">
           <PostListing postEdges={postEdges} />
         </Box>
       </Layout>

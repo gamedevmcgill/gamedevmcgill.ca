@@ -21,7 +21,7 @@ const Container = styled.header`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  min-height: 50rem;
+  min-height: ${props => props.tall ? '50rem' : '30rem'};
 `;
 
 export default Container;

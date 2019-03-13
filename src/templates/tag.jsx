@@ -1,7 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Box } from "@rebass/grid";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import Header from "../components/Header/Header";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../config/SiteConfig";
 
@@ -16,7 +18,11 @@ export default class TagTemplate extends React.Component {
       <Layout>
         <div>
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-          <PostListing postEdges={postEdges} />
+
+          <Header title={`Tagged: ${tag}`} />
+          <Box m="10rem 0">
+            <PostListing postEdges={postEdges} />
+          </Box>
         </div>
       </Layout>
     );

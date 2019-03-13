@@ -37,6 +37,7 @@ export default class PostTemplate extends React.Component {
             date={post.date}
             tags={post.tags}
             img="https://source.unsplash.com/random/1920x1080"
+            tall
           />
           <MaxWidthBox maxWidth="80rem" m="0 auto 10rem">
             <StyledBox p="4rem 10rem" mt="-20rem">
