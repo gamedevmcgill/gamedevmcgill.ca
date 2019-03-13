@@ -3,7 +3,6 @@ import { rgba } from "polished";
 
 const Button = styled.button.attrs({ type: "button" })`
   padding: 1.2rem 2rem;
-  min-width: 12rem;
   border-radius: 5rem;
   text-transform: uppercase;
   font-weight: 800;
