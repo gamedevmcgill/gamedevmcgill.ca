@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { transparentize, darken } from "polished";
+import { transparentize } from "polished";
 
 const Container = styled.header`
   background: ${props => {
@@ -13,13 +13,7 @@ const Container = styled.header`
         url(${props.img});
       `;
     }
-    return `
-      linear-gradient(
-          45deg,
-          ${darken(0.1, props.theme.colors.blue)},
-          ${darken(0.02, props.theme.colors.green)}
-        )
-      `;
+    return props.theme.colors.black;
   }};
   color: ${props => props.theme.colors.white};
   display: flex;

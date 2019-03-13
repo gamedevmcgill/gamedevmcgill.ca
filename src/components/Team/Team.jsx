@@ -5,6 +5,7 @@ import Portrait from "./Portrait";
 import Position from "./Position";
 import Game from "./Game";
 import StyledBox from "../Styled/StyledBox";
+import Em from "../Styled/Em";
 
 const Team = ({ members }) => (
   <StyledBox p="4rem">
@@ -15,13 +16,15 @@ const Team = ({ members }) => (
             <article>
               <Flex flexDirection="column" alignItems="center">
                 <Portrait src={m.portrait.publicURL} />
-                <Name>{m.name}</Name>
-                <Position>POSITION: {m.position}</Position>
+                <Name>
+                  <Em>{m.name}</Em>
+                </Name>
+                <Position>{m.position}</Position>
                 <Game>
                   <span role="img" aria-label="Favorite Game">
-                    ❤️ 🕹
+                    ❤️
                   </span>{" "}
-                  : {m.game}
+                  {m.game}
                 </Game>
               </Flex>
             </article>

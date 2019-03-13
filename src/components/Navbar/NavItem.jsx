@@ -5,7 +5,7 @@ const NavbarItem = styled.li`
   list-style: none;
   display: inline-block;
   margin-right: 1.6rem;
-  font-weight: 700;
+  font-weight: 800;
   transition: 0.2s all ease-in-out;
   text-transform: uppercase;
   &:hover {

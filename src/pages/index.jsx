@@ -1,6 +1,8 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Helmet from "react-helmet";
+import MediaQuery from "react-responsive";
+import Typed from "react-typed";
 import { graphql, Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 
@@ -49,7 +51,7 @@ const events = [
       "Game development workshops of all levels, from introduction to game development to game engine architecture and computer graphics."
   },
   {
-    title: "Game Dev Social",
+    title: "GDM Social",
     image: Social,
     description:
       "Monthly meetups where our members share the projects they've been working on and socialize with each other."
@@ -77,8 +79,8 @@ class Index extends React.Component {
             src={Hero}
             top={0}
             left={0}
-            imgWidth="100%"
-            minWidth="120rem"
+            minHeight="80rem"
+            minWidth="100%"
           />
           <AbsoluteImage
             src={PixelArt}
@@ -88,24 +90,42 @@ class Index extends React.Component {
             maxWidth="40rem"
             minWidth="30rem"
           />
-          <Flex
-            flexDirection="column"
-            justifyContent="center"
-            css={{ height: "60rem" }}
-          >
-            <MaxWidthBox maxWidth="50rem" ml={["2rem", "10rem"]}>
+        </header>
+        <MaxWidthBox maxWidth="90rem" m="auto">
+          <Flex flexDirection="column">
+            <MaxWidthBox maxWidth="50rem" m="20rem 0 30rem" p="1rem">
               <H1>
-                {/* eslint-disable-next-line */}
-                {/* prettier-ignore */}A really <Em>catchy</Em> placeholder to
-                get your attention.
+                {"At GDM, we build "}
+                <br />
+                <Em>
+                  <Typed
+                    strings={[
+                      "adventures.",
+                      "puzzles.",
+                      "challenges.",
+                      "shooters.",
+                      "simulators.",
+                      "platformers.",
+                      "roguelikes.",
+                      "cookie clickers.",
+                      "visual novels.",
+                      "shaders.",
+                      "3D art.",
+                      "video games."
+                    ]}
+                    typeSpeed={40}
+                    backSpeed={30}
+                    backDelay={500}
+                    smartBackspace
+                    loop
+                  />
+                </Em>
               </H1>
               <AnchorLink offset="100" href="#about">
                 <Button>See more</Button>
               </AnchorLink>
             </MaxWidthBox>
           </Flex>
-        </header>
-        <MaxWidthBox maxWidth="100rem" m="16rem auto 0">
           <Section id="about">
             <H2>About</H2>
             <Flex flexWrap="wrap" alignItems="center">
@@ -153,12 +173,14 @@ class Index extends React.Component {
           <Section css={{ position: "relative" }} id="events">
             <H2>Club Events</H2>
             <Events events={events} />
-            <AbsoluteImage
-              src={Triangle}
-              top="-30vh"
-              left="-20vw"
-              width="100%"
-            />
+            <MediaQuery maxWidth="160rem">
+              <AbsoluteImage
+                src={Triangle}
+                top="-70vh"
+                left="-40vw"
+                width="140%"
+              />
+            </MediaQuery>
           </Section>
           <Section id="blog">
             <H2>Blog</H2>
