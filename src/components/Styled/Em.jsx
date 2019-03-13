@@ -4,6 +4,7 @@ const Em = styled.em`
   background: ${props => props.theme.gradients.primary};
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   position: relative;
   font-style: normal;
 
