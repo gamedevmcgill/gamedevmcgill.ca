@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { lighten } from "polished";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -12,6 +13,14 @@ const GlobalStyle = createGlobalStyle`
   
   a, a:visited {
     color: black;
+  }
+
+  blockquote {
+    margin: 1.6rem 1.6rem 1.6rem 0;
+    padding: 0 0 0 0.8rem;
+    border-left: 0.4rem solid ${props => props.theme.colors.blue};
+    color: ${props => lighten(0.5, props.theme.colors.black)};
+    font-style: italic;
   }
 `;
 
