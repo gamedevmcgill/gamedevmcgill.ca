@@ -1,31 +1,62 @@
-import * as React from "react";
-import { Flex } from "@rebass/grid";
+import React from "react";
+import { useTrail, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
+
+import { Flex, Box } from "@rebass/grid";
 import Title from "./Title";
 import StyledBox from "../Styled/StyledBox";
 import Paragraph from "../Styled/Paragraph";
 
-const Events = ({ events }) => (
-  <Flex flexWrap="wrap" alignItems="space-between">
-    {events.map(e => (
-      <StyledBox width={[1, "45%", "22.5%"]} key={e.title} m="1rem" p="1rem">
-        <article>
-          <Flex flexDirection="column" alignItems="center">
-            <Title>{e.title}</Title>
-            <img
+// https://github.com/gatsbyjs/gatsby/issues/309
+try {
+  // eslint-disable-next-line
+  require("intersection-observer");
+} catch (e) {
+  /* only throws if run server-side */
+}
+
+const Events = ({ events }) => {
+  const [ref, inView] = useInView({ triggerOnce: true });
+  const trail = useTrail(events.length, {
+    opacity: inView ? 1 : 0,
+    x: inView ? 0 : 100,
+    from: { opacity: 0, x: 100 }
+  });
+
+  return (
+    <div ref={ref}>
+      <Flex flexWrap="wrap" justifyContent="space-between">
+        {trail.map(({ x, ...rest }, index) => (
+          <Box key={events[index].title} width={[1, 1 / 2, 1 / 4]}>
+            <animated.div
               style={{
-                objectFit: "contain",
-                width: "50%",
-                height: "100%"
+                ...rest,
+                transform: x.interpolate(_x => `translate3d(0,${_x}px,0)`)
               }}
-              src={e.image}
-              alt={e.title}
-            />
-            <Paragraph small>{e.description}</Paragraph>
-          </Flex>
-        </article>
-      </StyledBox>
-    ))}
-  </Flex>
-);
+            >
+              <StyledBox key={events[index].title} m="1rem" p="1rem">
+                <article>
+                  <Flex flexDirection="column" alignItems="center">
+                    <Title>{events[index].title}</Title>
+                    <img
+                      style={{
+                        objectFit: "contain",
+                        width: "50%",
+                        height: "100%"
+                      }}
+                      src={events[index].image}
+                      alt={events[index].title}
+                    />
+                    <Paragraph small>{events[index].description}</Paragraph>
+                  </Flex>
+                </article>
+              </StyledBox>
+            </animated.div>
+          </Box>
+        ))}
+      </Flex>
+    </div>
+  );
+};
 
 export default Events;
