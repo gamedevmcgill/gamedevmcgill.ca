@@ -11,13 +11,14 @@ import NavbarItem from "./NavItem";
 const Nav = styled.nav`
   position: fixed;
   z-index: 10;
-  height: 8rem;
+  height: 6rem;
   width: 100%;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: black;
+  box-shadow: ${props => props.theme.boxShadow};
 `;
 
 const sections = [

@@ -131,7 +131,7 @@ class Index extends React.Component {
           <Section id="about">
             <H2>About</H2>
             <Flex flexWrap="wrap" alignItems="center">
-              <StyledBox p="2rem" width={[1, 1, 1 / 2]}>
+              <StyledBox p="2rem" mr="5%" width={[1, 1, 0.45]}>
                 <img
                   style={{
                     objectFit: "contain",
@@ -158,7 +158,7 @@ class Index extends React.Component {
           <Section id="games">
             <H2>Our Games</H2>
             <Flex flexWrap="wrap" alignItems="center">
-              <Box p="2rem" width={[1, 1, 1 / 2]} alignSelf="flex-start">
+              <Box p="2rem" width={[1, 1, 1 / 2]} alignSelf="center">
                 <Paragraph>
                   At Game Dev McGill, we require all members to keep working on
                   games every semester, whether they’re for personal projects or

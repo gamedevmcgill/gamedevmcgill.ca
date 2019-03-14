@@ -24,7 +24,6 @@ const ListingHeader = styled(Link)`
   text-decoration: none;
   font-size: 2.4rem;
   font-weight: 800;
-  display: inline-block;
 `;
 
 const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
@@ -32,14 +31,11 @@ const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
   const [ref, inView] = useInView();
 
   if (isInfinite) {
-    useEffect(
-      () => {
-        if (inView && postEdges.length > numPagesShown) {
-          setNumPages(numPagesShown + pageSize);
-        }
-      },
-      [inView]
-    );
+    useEffect(() => {
+      if (inView && postEdges.length > numPagesShown) {
+        setNumPages(numPagesShown + pageSize);
+      }
+    }, [inView]);
   }
 
   const postList = postEdges.map(postEdge => ({
@@ -55,50 +51,46 @@ const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
   return (
     <MaxWidthBox maxWidth="70rem" m="auto">
       {/* Your post list here. */
-      postList.slice(0, numPagesShown).map((post) => (
-        <StyledBox
-          hoverable
-          mb="4rem"
-          p="3rem"
-          key={post.path}
-          css="min-height: 24rem;"
-        >
-          <article>
-            <Flex>
-              <Box width={2 / 3} pr="2rem">
-                <ListingHeader to={post.path} key={post.title}>
-                  {post.title}
-                </ListingHeader>
-                <Paragraph small>{post.excerpt}</Paragraph>
-                <PostTags tags={post.tags} />
-                <Flex justifyContent="flex-end">
-                  <Info>
-                    <FaClock /> {post.timeToRead} min read
-                  </Info>
-                  <Info>
-                    <FaRegCalendarAlt />{" "}
-                    {new Date(post.date).toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                      year: "numeric"
-                    })}
-                  </Info>
-                </Flex>
-              </Box>
-              <Box width={1 / 3}>
-                <img
-                  style={{
-                    objectFit: "cover",
-                    width: "100%",
-                    height: "100%"
-                  }}
-                  src={post.cover}
-                  alt={post.title}
-                />
-              </Box>
-            </Flex>
-          </article>
-        </StyledBox>
+      postList.slice(0, numPagesShown).map(post => (
+        <Link to={post.path} key={post.path} style={{ textDecoration: "none" }}>
+          <StyledBox hoverable mb="4rem" p="3rem" css="min-height: 24rem;">
+            <article>
+              <Flex>
+                <Box width={2 / 3} pr="2rem">
+                  <ListingHeader to={post.path} key={post.title}>
+                    {post.title}
+                  </ListingHeader>
+                  <Paragraph small>{post.excerpt}</Paragraph>
+                  <PostTags tags={post.tags} />
+                  <Flex justifyContent="flex-end">
+                    <Info>
+                      <FaClock /> {post.timeToRead} min read
+                    </Info>
+                    <Info>
+                      <FaRegCalendarAlt />{" "}
+                      {new Date(post.date).toLocaleDateString("en-US", {
+                        month: "short",
+                        day: "numeric",
+                        year: "numeric"
+                      })}
+                    </Info>
+                  </Flex>
+                </Box>
+                <Box width={1 / 3}>
+                  <img
+                    style={{
+                      objectFit: "cover",
+                      width: "100%",
+                      height: "100%"
+                    }}
+                    src={post.cover}
+                    alt={post.title}
+                  />
+                </Box>
+              </Flex>
+            </article>
+          </StyledBox>
+        </Link>
       ))}
       <div ref={ref} />
     </MaxWidthBox>

@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.6rem;
   }
+  
+  a, a:visited {
+    color: black;
+  }
 `;
 
 export default GlobalStyle;
