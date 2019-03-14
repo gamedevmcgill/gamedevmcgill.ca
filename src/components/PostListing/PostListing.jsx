@@ -25,28 +25,6 @@ const ListingHeader = styled(Link)`
   font-size: 2.4rem;
   font-weight: 800;
   display: inline-block;
-
-  position: relative;
-  overflow: hidden;
-
-  &::after {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    transition: all 0.4s ease-in-out;
-    content: "";
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    z-index: 2;
-    background: ${props => props.theme.gradients.primary};
-    transform: translateX(-200%);
-  }
-
-  &:hover {
-    &::after {
-      transform: translateX(30%);
-    }
-  }
 `;
 
 const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
@@ -77,7 +55,7 @@ const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
   return (
     <MaxWidthBox maxWidth="70rem" m="auto">
       {/* Your post list here. */
-      postList.slice(0, numPagesShown).map((post, index) => (
+      postList.slice(0, numPagesShown).map((post) => (
         <StyledBox
           hoverable
           mb="4rem"
