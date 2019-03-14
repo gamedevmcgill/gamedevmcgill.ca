@@ -22,20 +22,18 @@ const Container = styled.header`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  min-height: ${props => props.tall ? '50rem' : '30rem'};
-  width: calc(100% - 2rem);
-  border-bottom-right-radius: 12rem;
+  min-height: ${props => (props.tall ? "50rem" : "30rem")};
   position: relative;
 
   &::after {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     width: 120%;
-    height: calc(100% + 2rem);
+    height: 2rem;
     z-index: -1;
     content: "";
-    background: ${props => props.theme.gradients.secondary}
+    background: ${props => props.theme.gradients.secondary};
   }
 `;
 
