@@ -1,21 +1,7 @@
 import styled from "styled-components";
-import { transparentize } from "polished";
 
 const Container = styled.header`
-  background: ${props => {
-    if (props.img) {
-      return `
-      linear-gradient(
-          45deg,
-          ${transparentize(0.05, props.theme.colors.black)},
-          ${transparentize(0.1, props.theme.colors.black)} 60%,
-          ${transparentize(0.9, props.theme.colors.black)} 99%
-        ),
-        url(${props.img});
-      `;
-    }
-    return props.theme.colors.black;
-  }};
+  
   color: ${props => props.theme.colors.white};
   display: flex;
   justify-content: center;
@@ -29,7 +15,7 @@ const Container = styled.header`
     position: absolute;
     top: 100%;
     left: 0;
-    width: 120%;
+    width: 100%;
     height: 2rem;
     z-index: -1;
     content: "";

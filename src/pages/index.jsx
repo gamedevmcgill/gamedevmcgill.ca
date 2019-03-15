@@ -242,7 +242,16 @@ export const pageQuery = graphql`
           frontmatter {
             title
             tags
-            cover
+            cover {
+              childImageSharp {
+                fluid(
+                  maxWidth: 300
+                  duotone: { highlight: "#00ff99", shadow: "#000066" }
+                ) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             date
           }
         }

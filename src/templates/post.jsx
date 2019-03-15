@@ -36,7 +36,7 @@ export default class PostTemplate extends React.Component {
             author={post.author}
             date={post.date}
             tags={post.tags}
-            img="https://source.unsplash.com/random/1920x1080"
+            img={post.cover}
             tall
           />
           <MaxWidthBox maxWidth="80rem" m="0 auto 10rem">
@@ -65,7 +65,13 @@ export const pageQuery = graphql`
       excerpt
       frontmatter {
         title
-        cover
+        cover {
+          childImageSharp {
+            fluid(duotone: { highlight: "#00ff99", shadow: "#000066" }) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         date
         category
         tags

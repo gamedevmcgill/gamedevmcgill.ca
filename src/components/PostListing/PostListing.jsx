@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { Flex, Box } from "@rebass/grid";
 import { FaClock, FaRegCalendarAlt } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
+import Img from "gatsby-image";
 import StyledBox from "../Styled/StyledBox";
 import Paragraph from "../Styled/Paragraph";
 import MaxWidthBox from "../Styled/MaxWidthBox";
@@ -77,13 +78,10 @@ const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
                   </Flex>
                 </Box>
                 <Box width={1 / 3}>
-                  <img
-                    style={{
-                      objectFit: "cover",
-                      width: "100%",
-                      height: "100%"
-                    }}
-                    src={post.cover}
+                  <Img
+                    style={{ height: "100%" }}
+                    imgStyle={{ objectFit: "cover" }}
+                    fluid={post.cover.childImageSharp.fluid}
                     alt={post.title}
                   />
                 </Box>
