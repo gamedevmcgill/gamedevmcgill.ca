@@ -24,7 +24,7 @@ const Header = ({ title, img, author, tags, date, tall }) => {
 
   return (
     <Container ref={ref} tall={tall}>
-      <MediaQuery minWidth={1100}>
+      <MediaQuery minWidth={1200}>
         <ReturnLink inView={inView} />
       </MediaQuery>
       <Box mb={tall && "24rem"}>
