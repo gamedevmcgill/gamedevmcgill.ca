@@ -13,12 +13,13 @@ export default class TagTemplate extends React.Component {
       pageContext: { tag },
       data
     } = this.props;
-    const postEdges = data.allMarkdownRemark.edges;
+    const postEdges = data.posts.edges;
+    const img = data.header;
     return (
       <Layout>
         <div>
           <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-          <Header title={`Tagged: ${tag}`} />
+          <Header title={`Tagged: ${tag}`} img={img} />
           <Box m="10rem 0">
             <PostListing postEdges={postEdges} />
           </Box>
@@ -31,7 +32,7 @@ export default class TagTemplate extends React.Component {
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allMarkdownRemark(
+    posts: allMarkdownRemark(
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
@@ -60,6 +61,13 @@ export const pageQuery = graphql`
             }
             date
           }
+        }
+      }
+    }
+    header: file(relativePath: { eq: "assets/blog.jpg" }) {
+      childImageSharp {
+        fluid(grayscale: true) {
+          ...GatsbyImageSharpFluid
         }
       }
     }

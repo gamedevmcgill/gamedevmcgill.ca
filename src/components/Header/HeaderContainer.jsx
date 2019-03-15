@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const Container = styled.header`
-  
   color: ${props => props.theme.colors.white};
   display: flex;
   justify-content: center;

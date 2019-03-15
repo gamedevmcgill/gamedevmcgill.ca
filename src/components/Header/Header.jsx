@@ -44,18 +44,20 @@ const Header = ({ title, img, author, tags, date, tall }) => {
         </Flex>
         {tags && <PostTags tags={tags} />}
       </Box>
-      <Img
-        fluid={img.childImageSharp.fluid}
-        style={{
-          position: "absolute",
-          filter: "brightness(0.4)",
-          left: 0,
-          top: 0,
-          width: "100%",
-          height: "100%",
-          zIndex: -100
-        }}
-      />
+      {img && (
+        <Img
+          fluid={img.childImageSharp.fluid}
+          style={{
+            position: "absolute",
+            filter: "brightness(0.4)",
+            left: 0,
+            top: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: -100
+          }}
+        />
+      )}
     </Container>
   );
 };

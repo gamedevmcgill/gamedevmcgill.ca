@@ -10,11 +10,12 @@ import config from "../../config/SiteConfig";
 class BlogPage extends Component {
   render() {
     const { data } = this.props;
-    const postEdges = data.allMarkdownRemark.edges;
+    const postEdges = data.posts.edges;
+    const img = data.header;
     return (
       <Layout>
         <Helmet title={`Blog | ${config.siteTitle}`} />
-        <Header title="Blog Posts" />
+        <Header title="Blog Posts" img={img} />
         <Box m="10rem 0">
           <PostListing postEdges={postEdges} />
         </Box>
@@ -28,7 +29,7 @@ export default BlogPage;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query BlogPage {
-    allMarkdownRemark(
+    posts: allMarkdownRemark(
       limit: 1000
       sort: { fields: [fields___date], order: DESC }
       filter: { fileAbsolutePath: { regex: "/posts/" } }
@@ -57,6 +58,13 @@ export const pageQuery = graphql`
             }
             date
           }
+        }
+      }
+    }
+    header: file(relativePath: { eq: "assets/blog.jpg" }) {
+      childImageSharp {
+        fluid(grayscale: true) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
