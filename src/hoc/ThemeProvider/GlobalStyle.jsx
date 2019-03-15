@@ -2,17 +2,20 @@ import { createGlobalStyle } from "styled-components";
 import { lighten } from "polished";
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+
   html, body {
+    font-size: 62.5%;
+    height: 100%;
     position: relative;
     overflow-x: hidden;
   }
   body {
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.6rem;
-  }
-  
-  a, a:visited {
-    color: black;
   }
 
   blockquote {
