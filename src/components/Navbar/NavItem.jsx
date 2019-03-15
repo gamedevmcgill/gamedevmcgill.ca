@@ -9,7 +9,7 @@ const NavbarItem = styled.li`
   transition: 0.2s all ease-in-out;
   text-transform: uppercase;
   &:hover {
-    color: ${props => props.theme.colors.green};
+    color: ${props => props.theme.colors.primary};
   }
 `;
 

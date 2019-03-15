@@ -5,9 +5,9 @@ const UserLink = styled.a`
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 2px;
-  transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in-out;
   &:hover {
-    color: ${props => props.theme.colors.green};
+    color: ${props => props.theme.colors.primary};
   }
 `
 export default UserLink;
