@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
 
   html, body {
     font-size: 62.5%;
-    height: 100%;
     position: relative;
     overflow-x: hidden;
   }

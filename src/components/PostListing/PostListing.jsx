@@ -19,7 +19,7 @@ try {
   /* only throws if run server-side */
 }
 
-const ListingHeader = styled(Link)`
+const ListingHeader = styled.h1`
   color: ${props => props.theme.colors.black};
   text-transform: uppercase;
   text-decoration: none;

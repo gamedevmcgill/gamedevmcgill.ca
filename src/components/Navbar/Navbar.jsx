@@ -60,9 +60,15 @@ const Navbar = () => (
     </MediaQuery>
     <ul>
       {sections.map(s => (
-        <AnchorLink offset="100" href={`#${s.id}`} key={s.id}>
-          <NavbarItem>{s.name}</NavbarItem>
-        </AnchorLink>
+        <NavbarItem key={s.id}>
+          <AnchorLink
+            offset="100"
+            href={`#${s.id}`}
+            style={{ color: "inherit" }}
+          >
+            {s.name}
+          </AnchorLink>
+        </NavbarItem>
       ))}
     </ul>
   </Nav>
