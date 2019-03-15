@@ -53,42 +53,50 @@ const PostListing = ({ pageSize = 5, isInfinite = true, postEdges }) => {
     <MaxWidthBox maxWidth="70rem" m="auto">
       {/* Your post list here. */
       postList.slice(0, numPagesShown).map(post => (
-        <Link to={post.path} key={post.path} style={{ textDecoration: "none" }}>
-          <StyledBox hoverable mb="4rem" p="3rem" css="min-height: 24rem;">
-            <article>
-              <Flex>
-                <Box width={2 / 3} pr="2rem">
-                  <ListingHeader to={post.path} key={post.title}>
-                    {post.title}
-                  </ListingHeader>
-                  <Paragraph small>{post.excerpt}</Paragraph>
-                  <PostTags tags={post.tags} />
-                  <Flex justifyContent="flex-end">
-                    <Info>
-                      <FaClock /> {post.timeToRead} min read
-                    </Info>
-                    <Info>
-                      <FaRegCalendarAlt />{" "}
-                      {new Date(post.date).toLocaleDateString("en-US", {
-                        month: "short",
-                        day: "numeric",
-                        year: "numeric"
-                      })}
-                    </Info>
-                  </Flex>
-                </Box>
-                <Box width={1 / 3}>
-                  <Img
-                    style={{ height: "100%" }}
-                    imgStyle={{ objectFit: "cover" }}
-                    fluid={post.cover.childImageSharp.fluid}
-                    alt={post.title}
-                  />
-                </Box>
-              </Flex>
-            </article>
-          </StyledBox>
-        </Link>
+        <StyledBox
+          hoverable
+          mb="4rem"
+          p="3rem"
+          css="min-height: 24rem;"
+          key={post.title}
+        >
+          <article>
+            <Flex>
+              <Box width={2 / 3} pr="2rem">
+                <Link
+                  to={post.path}
+                  key={post.path}
+                  style={{ textDecoration: "none" }}
+                >
+                  <ListingHeader to={post.path}>{post.title}</ListingHeader>
+                </Link>
+                <Paragraph small>{post.excerpt}</Paragraph>
+                <PostTags tags={post.tags} />
+                <Flex justifyContent="flex-end">
+                  <Info>
+                    <FaClock /> {post.timeToRead} min read
+                  </Info>
+                  <Info>
+                    <FaRegCalendarAlt />{" "}
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric"
+                    })}
+                  </Info>
+                </Flex>
+              </Box>
+              <Box width={1 / 3}>
+                <Img
+                  style={{ height: "100%" }}
+                  imgStyle={{ objectFit: "cover" }}
+                  fluid={post.cover.childImageSharp.fluid}
+                  alt={post.title}
+                />
+              </Box>
+            </Flex>
+          </article>
+        </StyledBox>
       ))}
       <div ref={ref} />
     </MaxWidthBox>
