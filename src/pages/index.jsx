@@ -211,9 +211,9 @@ class Index extends React.Component {
                 ]}
               />
             </Flex>
-            <Flex justifyContent="center">
+            {/* <Flex justifyContent="center">
               <Button>Interested in sponsoring?</Button>
-            </Flex>
+            </Flex> */}
           </Section>
         </MaxWidthBox>
       </Layout>
