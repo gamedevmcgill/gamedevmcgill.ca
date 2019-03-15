@@ -31,38 +31,10 @@ import Hero from "../../static/assets/hero.svg";
 import PixelArt from "../../static/assets/pixel-art.png";
 import Triangle from "../../static/assets/triangle.svg";
 
-import Photo from "../../static/assets/gamedev.jpg";
-import Game from "../../static/assets/gamepad.svg";
-import Class from "../../static/assets/class.svg";
-import Social from "../../static/assets/laugh.svg";
-import Other from "../../static/assets/dance.svg";
+import strings from "../constants/header-strings";
+import events from "../constants/events";
 
-const events = [
-  {
-    title: "McGameJam",
-    image: Game,
-    description:
-      "The 2nd largest video game hackathon in Quebec, where attendees have 48 hours to create a game based on a chosen theme."
-  },
-  {
-    title: "Tutorials",
-    image: Class,
-    description:
-      "Game development workshops of all levels, from introduction to game development to game engine architecture and computer graphics."
-  },
-  {
-    title: "GDM Social",
-    image: Social,
-    description:
-      "Monthly meetups where our members share the projects they've been working on and socialize with each other."
-  },
-  {
-    title: "Other Stuff",
-    image: Other,
-    description:
-      "We have miscellaneous events throughout the year where we watch game dev talks, go out together, and present our games to the public!"
-  }
-];
+import Photo from "../../static/assets/gamedev.jpg";
 
 class Index extends React.Component {
   render() {
@@ -101,20 +73,7 @@ class Index extends React.Component {
                 <br />
                 <Em>
                   <Typed
-                    strings={[
-                      "adventures.",
-                      "puzzles.",
-                      "challenges.",
-                      "shooters.",
-                      "simulators.",
-                      "platformers.",
-                      "roguelikes.",
-                      "cookie clickers.",
-                      "visual novels.",
-                      "shaders.",
-                      "3D art.",
-                      "video games."
-                    ]}
+                    strings={strings}
                     typeSpeed={40}
                     backSpeed={30}
                     backDelay={500}
