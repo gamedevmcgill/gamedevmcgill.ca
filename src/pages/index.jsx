@@ -224,6 +224,13 @@ export const pageQuery = graphql`
           game
           portrait {
             publicURL
+            childImageSharp {
+              fluid(
+                maxWidth: 200
+              ) {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
         }
       }

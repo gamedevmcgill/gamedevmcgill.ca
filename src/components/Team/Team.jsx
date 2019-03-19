@@ -1,7 +1,7 @@
 import * as React from "react";
+import Img from "gatsby-image";
 import { Flex, Box } from "@rebass/grid";
 import Name from "./Name";
-import Portrait from "./Portrait";
 import Position from "./Position";
 import Game from "./Game";
 import StyledBox from "../Styled/StyledBox";
@@ -15,7 +15,17 @@ const Team = ({ members }) => (
           <Box m="2rem 0" width={[1, "50%", "33%"]} key={m.name}>
             <article>
               <Flex flexDirection="column" alignItems="center">
-                <Portrait src={m.portrait.publicURL} />
+                <Img
+                  fluid={m.portrait.childImageSharp.fluid}
+                  alt={m.name}
+                  style={{
+                    width: "16rem",
+                    height: "16rem"
+                  }}
+                  imgStyle={{
+                    borderRadius: "50%"
+                  }}
+                />
                 <Name>
                   <Em>{m.name}</Em>
                 </Name>

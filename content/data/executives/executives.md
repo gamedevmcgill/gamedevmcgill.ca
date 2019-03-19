@@ -7,7 +7,7 @@ executives:
   - name: Michael Sukkarieh
     position: Lead Programmer
     game: Halo 3
-    portrait: "./michael.png"
+    portrait: "./michael.jpg"
   - name: Sophie Deng
     position: VP Events
     game: "Zelda: Breath of the Wild"
