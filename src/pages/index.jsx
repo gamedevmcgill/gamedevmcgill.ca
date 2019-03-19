@@ -235,12 +235,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    games: allItchioGame(limit: 10) {
+    games: allItchioGame(limit: 10,
+    filter: {cover_url: {ne: null}}) {
       edges {
         node {
           url
           user {
             display_name
+            username
             url
           }
           title

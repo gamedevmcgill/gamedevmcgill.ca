@@ -33,7 +33,7 @@ class SimpleSlider extends React.Component {
                 style={{
                   objectFit: "contain",
                   width: "100%",
-                  height: "100%",
+                  height: "100%"
                 }}
                 src={i.cover_url}
                 alt={i.title}
@@ -42,11 +42,11 @@ class SimpleSlider extends React.Component {
                 <Box>
                   <Title>{i.title}</Title>
                   <Subtitle>
-                    by&nbsp;<a href={i.user.url}>{i.user.display_name}</a>
+                    by&nbsp;<a href={i.user.url}>{i.user.display_name || i.user.username}</a>
                   </Subtitle>
                 </Box>
                 <Flex alignItems="center">
-                  <a href={i.url}>
+                  <a href={i.url} target="_blank" rel="noopener noreferrer">
                     <Button secondary>See on itch.io</Button>
                   </a>
                 </Flex>
