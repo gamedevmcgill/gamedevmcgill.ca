@@ -20,6 +20,4 @@ const other = {
 
 const theme = { colors, gradients, ...other };
 
-console.log(theme);
-
 export default theme;
