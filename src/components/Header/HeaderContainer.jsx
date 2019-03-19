@@ -7,7 +7,7 @@ const Container = styled.header`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  min-height: ${props => (props.tall ? "50rem" : "30rem")};
+  height: ${props => (props.tall ? "50rem" : "30rem")};
   position: relative;
 
   &::after {

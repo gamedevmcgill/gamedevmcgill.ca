@@ -14,7 +14,7 @@ const ReturnLinkComponent = ({ inView }) => {
   });
 
   return transitions.map(({ item, key, props }) => (
-    <animated.div
+    <animated.span
       key={key}
       style={{ ...props, position: item ? "absolute" : "fixed" }}
     >
@@ -34,7 +34,7 @@ const ReturnLinkComponent = ({ inView }) => {
           </Flex>
         </Button>
       </Link>
-    </animated.div>
+    </animated.span>
   ));
 };
 

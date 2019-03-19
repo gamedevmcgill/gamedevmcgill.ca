@@ -41,6 +41,10 @@ const Header = ({ title, img, author, tags, date, tall }) => {
           <span>
             {author && <strong>by {author}</strong>} {date && `on ${date}`}
           </span>
+        </Flex>
+        {tags && <PostTags tags={tags} />}
+
+        <div>
           {img && (
             <Img
               fluid={img.childImageSharp.fluid}
@@ -55,8 +59,7 @@ const Header = ({ title, img, author, tags, date, tall }) => {
               }}
             />
           )}
-        </Flex>
-        {tags && <PostTags tags={tags} />}
+        </div>
       </Box>
     </Container>
   );
