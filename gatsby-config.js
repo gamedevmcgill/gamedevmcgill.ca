@@ -1,11 +1,9 @@
-const urljoin = require("url-join");
 const config = require("./config/SiteConfig");
 require("dotenv").config();
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    siteUrl: urljoin(config.siteUrl, config.pathPrefix)
+    siteUrl: config.siteUrl
   },
   plugins: [
     {
