@@ -8,6 +8,8 @@ slug: "website-launch"
 tags:
   - announcement
   - website
+  - winter 2019
+  - 2018-2019
 ---
 
 ## 🤔 What's this?
