@@ -27,7 +27,10 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         {items.map(i => (
-          <StyledBox m="2rem 0.25rem" key={i}>
+          <StyledBox
+            m="2rem 0"
+            key={i}
+          >
             <article>
               <img
                 style={{
@@ -42,7 +45,10 @@ class SimpleSlider extends React.Component {
                 <Box>
                   <Title>{i.title}</Title>
                   <Subtitle>
-                    by&nbsp;<a href={i.user.url}>{i.user.display_name || i.user.username}</a>
+                    by&nbsp;
+                    <a href={i.user.url}>
+                      {i.user.display_name || i.user.username}
+                    </a>
                   </Subtitle>
                 </Box>
                 <Flex alignItems="center">

@@ -126,7 +126,7 @@ class Index extends React.Component {
                   participating in Ubisoft’s GameLabs competition.
                 </Paragraph>
               </Box>
-              <Box p="2rem" width={[1, 1, 1 / 2]}>
+              <Box p="3rem" width={[1, 1, 1 / 2]}>
                 <Carousel games={games} />
               </Box>
             </Flex>
