@@ -34,7 +34,12 @@ const Events = ({ events }) => {
                 transform: x.interpolate(_x => `translate3d(0,${_x}px,0)`)
               }}
             >
-              <StyledBox key={events[index].title} m="1rem" p="1rem">
+              <StyledBox
+                key={events[index].title}
+                m="1rem"
+                p="1rem"
+                style={{ height: "36rem" }}
+              >
                 <article>
                   <Flex flexDirection="column" alignItems="center">
                     <Title>{events[index].title}</Title>
