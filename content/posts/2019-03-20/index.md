@@ -30,11 +30,11 @@ Are you looking to get involved in a community of students passionate about game
 
 Note: Applicants must still be students for the entirety of the 2019-2020 academic year.
 
-# 🧐 How Do I Apply?
+## 🧐 How Do I Apply?
 
 You can read the role descriptions below to know more about each of them. Then, fill out the following form https://goo.gl/forms/nsJtTOySYbsT0pyU2 by Thursday the 28th of March, after which we will schedule interviews with all applicants.
 
-# ✏️ VP Communications
+### ✏️ VP Communications
 
 The VP communications is responsible for creating all of the content used for our social media, website, and events. They are responsible for the overall perception of the club and its events by students and sponsors. They also ensure engagement of our members in our Discord channel, and provide avenues for our members to feel a part of the community.
 
@@ -45,7 +45,7 @@ The VP communications is responsible for creating all of the content used for ou
 - Good time management skills
 - Experience building and engaging a community is a plus
 
-# 📦 VP Admin
+### 📦 VP Admin
 
 The VP Admin is responsible for managing all of GameDev McGill's physical assets such as inventory management and equipment rental. They are also the primary liaison to ECSESS and The Factory when it comes to matters dealing with the club space. In addition, the VP Admin also creates initiatives, whether it be through events or new equipment, to improve member involvement in our club space. Current equipment includes: game dev books, controllers, a VR headset, gaming laptop, and a gaming PC.
 
@@ -56,7 +56,7 @@ The VP Admin is responsible for managing all of GameDev McGill's physical assets
 - Experience with computer hardware is a plus
 - Experience managing inventory is a plus
 
-# 🎉 VP Internal
+### 🎉 VP Internal
 
 The VP Internal is responsible for the organization of all internal club events. These events include: our monthly game dev socials and game jams, watch and learns, and tutorials/workshops. These events are primarily targeted at our members, and are one of our club's primary means of building our community. They make sure that all of our events are executed properly!
 
@@ -65,7 +65,7 @@ The VP Internal is responsible for the organization of all internal club events.
 - Strong organizational and scheduling skills
 - Desire to host awesome game dev events!
 
-# ✈️ VP External
+### ✈️ VP External
 
 The VP External is responsible for communication with external entities. They organize events with our sponsors such as industry tours, talks, and panels with industry professionals. The primary initiative they will be undertaking next year is to expand GameDev McGill's sponsors by creating comprehensive sponsorship packages. This is crucial since we require sponsorships to fund all of our club's activities including McGame Jam. In addition, the VP External is responsible for coordinating events with other student clubs, i.e., cross-club events.
 
@@ -76,7 +76,7 @@ The VP External is responsible for communication with external entities. They or
 - Experience managing events is a plus
 - Experience working in a public relations position is a plus
 
-# 💻 Associate Programmer (2)
+### 💻 Associate Programmer (2)
 
 We are looking for **TWO** associate programmers!
 
