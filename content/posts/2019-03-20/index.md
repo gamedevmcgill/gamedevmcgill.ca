@@ -30,7 +30,7 @@ Are you looking to get involved in a community of students passionate about game
 
 Note: Applicants must still be students for the entirety of the 2019-2020 academic year.
 
-## 🧐 How Do I Apply?
+## 🧐 How do I apply?
 
 You can read the role descriptions below to know more about each of them. Then, fill out the following form https://goo.gl/forms/nsJtTOySYbsT0pyU2 by Thursday the 28th of March, after which we will schedule interviews with all applicants.
 
