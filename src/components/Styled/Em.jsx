@@ -5,11 +5,12 @@ const Em = styled.em`
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  position: relative;
   font-style: normal;
 
-  ${props => props.noBackground ||
-  `
+  ${props =>
+    props.noBackground ||
+    `
+    position: relative;
     &::after {
       position: absolute;
       background: black;
@@ -19,9 +20,7 @@ const Em = styled.em`
       top: 0.5rem;
       left: -0.5rem;
       z-index: -1;
-    }`
-  }
-
+    }`}
 `;
 
 export default Em;

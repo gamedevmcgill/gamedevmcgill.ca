@@ -9,6 +9,7 @@ const Container = styled.header`
   text-align: center;
   height: ${props => (props.tall ? "50rem" : "30rem")};
   position: relative;
+  padding-top: 5rem;
 
   &::after {
     position: absolute;
