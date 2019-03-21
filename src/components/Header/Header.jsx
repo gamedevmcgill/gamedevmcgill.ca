@@ -25,20 +25,23 @@ const Header = ({ title, img, author, tags, date, tall }) => {
 
   return (
     <Container ref={ref} tall={tall}>
-      <MediaQuery minWidth={1200}>
-        <DynamicReturnLink inView={inView} />
-      </MediaQuery>
-      <MediaQuery maxWidth={1200}>
-        <StaticReturnLink />
-      </MediaQuery>
-      <Box mb={tall && "24rem"}>
+      <Box mt="5rem">
+        <MediaQuery minWidth={1200}>
+          <DynamicReturnLink inView={inView} />
+        </MediaQuery>
+        <MediaQuery maxWidth={1200}>
+          <StaticReturnLink />
+        </MediaQuery>
         <MaxWidthBox maxWidth="80rem">
           <H1 style={{ marginBottom: "1rem" }} color="light">
-            <Em gradient="secondary">{title}</Em>
+            <Em gradient="secondary" noBackground>
+              {title}
+            </Em>
           </H1>
         </MaxWidthBox>
         <Flex
           justifyContent="flex-end"
+          p="0 2rem"
           mb="3rem"
           style={{ fontSize: "1.4rem", letterSpacing: "1px" }}
         >

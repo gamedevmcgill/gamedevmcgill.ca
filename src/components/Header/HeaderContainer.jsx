@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.header`
   color: ${props => props.theme.colors.white};
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   text-align: center;

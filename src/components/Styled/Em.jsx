@@ -8,16 +8,20 @@ const Em = styled.em`
   position: relative;
   font-style: normal;
 
-  &::after {
-    position: absolute;
-    background: black;
-    content: "";
-    width: calc(100% + 1rem);
-    height: 100%;
-    top: 0.5rem;
-    left: -0.5rem;
-    z-index: -1;
+  ${props => props.noBackground ||
+  `
+    &::after {
+      position: absolute;
+      background: black;
+      content: "";
+      width: calc(100% + 1rem);
+      height: 100%;
+      top: 0.5rem;
+      left: -0.5rem;
+      z-index: -1;
+    }`
   }
+
 `;
 
 export default Em;
