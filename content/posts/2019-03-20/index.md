@@ -14,7 +14,7 @@ tags:
 
 ## 👩‍🎓 Goodbye old execs!
 
-<div style="text-align: justify">Spring is coming 🌷 and that means that the end (of another academic year) is near. Some of us are (hopefully) graduating and won't be around next year. With half of the exec team gone, this leaves plenty of positions empty along with new positions to be filled on our committee.
+Spring is coming 🌷 and that means that the end (of another academic year) is near. Some of us are (hopefully) graduating and won't be around next year. With half of the exec team gone, this leaves plenty of positions empty along with new positions to be filled on our committee.
 
 ![](execs.png)
 
@@ -87,5 +87,3 @@ The Associate Programmers work alongside the Lead Programmer to manage all techn
 - Game development experience (ideally in Unity or Unreal)
 - Experience with presenting technical tutorials or talks is preferred
 - Experience planning and executing projects on a longer timescale is preferred
-
-</div>
