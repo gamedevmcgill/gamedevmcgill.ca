@@ -40,7 +40,7 @@ export default class PostTemplate extends React.Component {
             tall
           />
           <MaxWidthBox maxWidth="80rem" m="0 auto 10rem">
-            <StyledBox p="4rem 10rem" mt="-20rem">
+            <StyledBox p={["4rem","4rem 10rem"]} mt="-20rem">
               <article
                 style={{
                   lineHeight: "1.5",
