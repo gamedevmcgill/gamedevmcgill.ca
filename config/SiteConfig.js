@@ -7,7 +7,7 @@ module.exports = {
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Game Development Student Society @ McGill University.", // Website description used for RSS feeds/meta description tag.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  googleAnalyticsID: "UA-64089703-2", // GA tracking ID.
   disqusShortname: "gdm", // Disqus shortname.
   postDefaultCategoryID: "Game Development", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
