@@ -26,14 +26,14 @@ const HeaderTitle = styled.h1`
   font-weight: 800;
   letter-spacing: 0.2rem;
   background: ${props => props.theme.gradients.secondary};
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-bottom: 0.6rem;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 
   @media (max-width: 60rem) {
     font-size: 3.6rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 `;
 
