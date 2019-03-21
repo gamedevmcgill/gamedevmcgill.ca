@@ -5,11 +5,12 @@ import { useInView } from "react-intersection-observer";
 import Img from "gatsby-image";
 
 import Container from "./HeaderContainer";
-import ReturnLink from "./HeaderLink";
 import Em from "../Styled/Em";
 import H1 from "../Styled/H1";
 import PostTags from "../PostTags/PostTags";
 import MaxWidthBox from "../Styled/MaxWidthBox";
+import DynamicReturnLink from "./DynamicReturnLink";
+import StaticReturnLink from "./StaticReturnLink";
 
 // https://github.com/gatsbyjs/gatsby/issues/309
 try {
@@ -25,7 +26,10 @@ const Header = ({ title, img, author, tags, date, tall }) => {
   return (
     <Container ref={ref} tall={tall}>
       <MediaQuery minWidth={1200}>
-        <ReturnLink inView={inView} />
+        <DynamicReturnLink inView={inView} />
+      </MediaQuery>
+      <MediaQuery maxWidth={1200}>
+        <StaticReturnLink />
       </MediaQuery>
       <Box mb={tall && "24rem"}>
         <MaxWidthBox maxWidth="80rem">
