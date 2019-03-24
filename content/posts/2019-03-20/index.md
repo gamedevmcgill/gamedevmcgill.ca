@@ -26,7 +26,7 @@ Are you looking to get involved in a community of students passionate about game
 - VP Admin
 - VP Internal
 - VP External
-- 2x Assistant Programmer
+- 2x Associate Programmer
 
 Note: Applicants must still be students for the entirety of the 2019-2020 academic year.
 
