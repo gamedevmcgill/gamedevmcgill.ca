@@ -33,7 +33,7 @@ At the end of the night, everyone voted on their favourite game of the night. Wi
 
 [![Screenshot of μ-drive](mu-drive.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=MCwBT22h5Ms)
 
-If you want to test it out, Jonathan has the game for download on [itch.io]([https://jmontineri.itch.io/mu-drive](https://jmontineri.itch.io/mu-drive)). He also has an active Discord community for the game, where players can discuss the game and share charts for different songs! Check it out [here]([https://discord.gg/dzEPPWn](https://discord.gg/dzEPPWn)).
+If you want to test it out, Jonathan has the game for download on [itch.io](https://jmontineri.itch.io/mu-drive). He also has an active Discord community for the game, where players can discuss the game and share charts for different songs! Check it out [here](https://discord.gg/dzEPPWn).
 
 # 🥕 That's all, folks!
 
