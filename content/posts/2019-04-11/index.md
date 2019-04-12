@@ -31,8 +31,8 @@ Aside from the demos, we also had all the presenters come up in front of the who
 
 At the end of the night, everyone voted on their favourite game of the night. Without further ado, we'd like to announce that μ-drive by Jonathan Montineri won the popular vote for our first-ever Game Dev McGill Showcase! μ-drive is a fast-paced rhythm game inspired by Jonathan's own experiences with Japanese arcade games. Click the image below to see a YouTube video on how it works!
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=MCwBT22h5Ms" target="_blank" align="center">
-<img src="http://img.youtube.com/vi/MCwBT22h5Ms/0.jpg"
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=MCwBT22h5Ms" target="_blank" align="center">
+<img src="https://img.youtube.com/vi/MCwBT22h5Ms/0.jpg"
     alt="IMAGE ALT TEXT HERE"
     width="600"
     height="450"
