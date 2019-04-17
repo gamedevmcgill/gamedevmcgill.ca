@@ -1,6 +1,6 @@
 ---
 title: "Out With the Old, in With the New"
-cover: "./cover.png"
+cover: "./cover.jpeg"
 category: "Annoucements"
 author: "Élie Harfouche"
 date: "2019/04/17"
