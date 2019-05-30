@@ -46,8 +46,7 @@ const Events = ({ events }) => {
                     <img
                       style={{
                         objectFit: "contain",
-                        width: "50%",
-                        height: "100%"
+                        width: "50%"
                       }}
                       src={events[index].image}
                       alt={events[index].title}
