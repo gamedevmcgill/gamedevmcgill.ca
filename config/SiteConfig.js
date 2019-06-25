@@ -5,7 +5,7 @@ module.exports = {
   siteLogo: "/logos/logo-1024.jpg", // Logo used for SEO and manifest.
   siteUrl: "https://www.gamedevmcgill.ca", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Game Development Student Society @ McGill University.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "The Game Development Student Society of McGill University is a student-run club that empowers aspiring game developers (programmers, designers, artists, etc.) to hone their craft. Come join our club to collaborate, learn, and play with our members! Find out more at our info sessions at the beginning of each semester.", // Website description used for RSS feeds/meta description tag.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-64089703-2", // GA tracking ID.
   disqusShortname: "gdm", // Disqus shortname.
