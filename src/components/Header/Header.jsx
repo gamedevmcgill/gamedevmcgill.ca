@@ -1,6 +1,6 @@
 import * as React from "react";
 import MediaQuery from "react-responsive";
-import { Flex } from "@rebass/grid";
+import { Flex } from "reflexbox/styled-components";
 import { useInView } from "react-intersection-observer";
 import Img from "gatsby-image";
 import styled from "styled-components";

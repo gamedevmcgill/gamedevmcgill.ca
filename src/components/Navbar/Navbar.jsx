@@ -2,7 +2,7 @@ import * as React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import MediaQuery from "react-responsive";
 import styled from "styled-components";
-import { Box } from "@rebass/grid";
+import { Box } from "reflexbox/styled-components";
 
 import Wordmark from "../../../static/logos/wordmark.svg";
 import Logo from "../../../static/logos/logo.svg";

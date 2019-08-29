@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Flex } from "@rebass/grid";
+import { Flex } from "reflexbox/styled-components";
 import SponsorImage from "./SponsorImage";
 
 const Sponsors = ({ sponsors }) => (

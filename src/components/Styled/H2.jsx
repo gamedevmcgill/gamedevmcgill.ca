@@ -1,6 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-import { Flex } from "@rebass/grid";
+import { Flex } from "reflexbox/styled-components";
 
 const H2 = styled.h2`
   font-size: 4.8rem;

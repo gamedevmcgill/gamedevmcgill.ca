@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { Flex, Box } from "@rebass/grid";
+import { Flex, Box } from "reflexbox/styled-components";
 import { FaClock, FaRegCalendarAlt } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import Img from "gatsby-image";

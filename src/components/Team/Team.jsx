@@ -1,6 +1,6 @@
 import * as React from "react";
 import Img from "gatsby-image";
-import { Flex, Box } from "@rebass/grid";
+import { Flex, Box } from "reflexbox/styled-components";
 import Name from "./Name";
 import Position from "./Position";
 import Game from "./Game";

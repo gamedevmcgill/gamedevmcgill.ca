@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { Box } from "@rebass/grid";
+import { Box } from "reflexbox/styled-components";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import Header from "../components/Header/Header";

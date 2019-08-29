@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 import { useTransition, animated } from "react-spring";
 
-import { Flex } from "@rebass/grid";
+import { Flex } from "reflexbox/styled-components";
 import Button from "../Styled/Button";
 import Logo from "../../../static/logos/logo.svg";
 

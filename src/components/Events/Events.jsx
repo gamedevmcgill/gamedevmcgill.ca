@@ -2,7 +2,7 @@ import React from "react";
 import { useTrail, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 
-import { Flex, Box } from "@rebass/grid";
+import { Flex, Box } from "reflexbox/styled-components";
 import Title from "./Title";
 import StyledBox from "../Styled/StyledBox";
 import Paragraph from "../Styled/Paragraph";

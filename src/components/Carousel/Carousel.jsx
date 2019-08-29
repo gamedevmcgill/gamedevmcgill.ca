@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "./style.css";
-import { Flex, Box } from "@rebass/grid";
+import { Flex, Box } from "reflexbox/styled-components";
 import StyledBox from "../Styled/StyledBox";
 import Title from "./Title";
 import Subtitle from "./Subtitle";

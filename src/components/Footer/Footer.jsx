@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { Box } from "@rebass/grid";
+import { Box } from "reflexbox/styled-components";
 import Logo from "../../../static/logos/wordmark.svg";
 
 import UserLinks from "../UserLinks/UserLinks";

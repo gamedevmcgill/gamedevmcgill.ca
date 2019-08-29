@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import MediaQuery from "react-responsive";
 import Typed from "react-typed";
 import { graphql, Link } from "gatsby";
-import { Flex, Box } from "@rebass/grid";
+import { Flex, Box } from "reflexbox/styled-components";
 
 import Carousel from "../components/Carousel/Carousel";
 import Team from "../components/Team/Team";
