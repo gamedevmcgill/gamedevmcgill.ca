@@ -41,7 +41,7 @@ class SimpleSlider extends React.Component {
                 src={i.cover_url}
                 alt={i.title}
               />
-              <Flex justifyContent="space-around" m="1rem 0">
+              <Flex justifyContent="space-between" m="0.8rem 0 1.2rem" p="0rem 2rem">
                 <Box>
                   <Title>{i.title}</Title>
                   <Subtitle>

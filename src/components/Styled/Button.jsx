@@ -17,7 +17,7 @@ const Button = styled.button.attrs({ type: "button" })`
       ? props.theme.gradients.secondary
       : props.theme.gradients.primary};
   &:hover {
-    transform: translate(0.05rem, -0.1rem);
+    transform: translate(0.02rem, -0.02rem);
     box-shadow: -0.02rem 0.6rem 0.6rem
       ${props =>
         rgba(
