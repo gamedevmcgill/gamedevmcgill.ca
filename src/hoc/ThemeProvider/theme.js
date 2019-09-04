@@ -15,7 +15,7 @@ const gradients = {
 };
 
 const other = {
-  boxShadow: `0 15px 15px rgba(0, 0, 0, 0.1);`
+  boxShadow: `0 1.6rem 1.6rem rgba(0, 0, 0, 0.1);`
 };
 
 const theme = { colors, gradients, ...other };

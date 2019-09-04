@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import MediaQuery from "react-responsive";
 import Typed from "react-typed";
 import { graphql, Link } from "gatsby";
+import Img from "gatsby-image";
 import { Flex, Box } from "reflexbox/styled-components";
 
 import Carousel from "../components/Carousel/Carousel";
@@ -34,14 +35,13 @@ import Triangle from "../../static/assets/triangle.svg";
 import strings from "../constants/header-strings";
 import events from "../constants/events";
 
-import Photo from "../../static/assets/gamedev.jpg";
-
 class Index extends React.Component {
   render() {
     const { data } = this.props;
     const postEdges = data.posts.edges;
     const gameEdges = data.games.edges;
     const games = gameEdges.map(edge => edge.node);
+    const photo = data.collage;
     const { executives } = data.execs.frontmatter;
     return (
       <Layout>
@@ -67,7 +67,7 @@ class Index extends React.Component {
         </header>
         <MaxWidthBox maxWidth="90rem" m="auto">
           <Flex flexDirection="column">
-            <MaxWidthBox maxWidth="50rem" m="20rem 0 30rem" p="1rem">
+            <MaxWidthBox maxWidth="50rem" m="20rem 0 40rem" p="1rem">
               <H1>
                 {"At GDM, we build "}
                 <br />
@@ -88,20 +88,21 @@ class Index extends React.Component {
             </MaxWidthBox>
           </Flex>
           <Section id="about">
-            <H2>About</H2>
-            <Flex flexWrap="wrap" alignItems="center">
-              <StyledBox p="2rem" mr="5%" width={[1, 1, 0.45]}>
-                <img
+            <H2>About Us</H2>
+            <Flex flexWrap="wrap" alignItems="center" ml={[0,0,"-40rem"]}>
+              <StyledBox p="2rem" width={[1, 1, 0.5]}>
+                <Img
+                  fluid={photo.childImageSharp.fluid}
                   style={{
                     objectFit: "contain",
                     width: "100%",
                     height: "100%"
                   }}
-                  src={Photo}
-                  alt="Members showing off a VR game"
+                  src={photo}
+                  alt="Various club activities"
                 />
               </StyledBox>
-              <Box p="2rem" width={[1, 1, 1 / 2]}>
+              <Box width={[1, 1, 1/2]} p={["2rem", "2rem", "0 0 0 12rem"]}>
                 <Paragraph>
                   We are Game Dev McGill, the game development student society
                   of McGill University. We are a group of students that are
@@ -116,8 +117,8 @@ class Index extends React.Component {
           </Section>
           <Section id="games">
             <H2>Our Games</H2>
-            <Flex flexWrap="wrap" alignItems="center">
-              <Box p="2rem" width={[1, 1, 1 / 2]} alignSelf="center">
+            <Flex flexWrap="wrap" alignItems="center" mr={[0,0,0]}>
+              <Box width={[1, 1, 1 / 2]} p={["2rem", "2rem", "0 4rem 0 0"]}>
                 <Paragraph>
                   At Game Dev McGill, we require all members to keep working on
                   games every semester, whether they’re for personal projects or
@@ -126,9 +127,11 @@ class Index extends React.Component {
                   participating in Ubisoft’s GameLabs competition.
                 </Paragraph>
               </Box>
-              <Box p="3rem" width={[1, 1, 1 / 2]}>
-                <Carousel games={games} />
-              </Box>
+              <Flex justifyContent="center" width={[1, 1, 1 / 2]}>
+                <Box>
+                  <Carousel games={games} />
+                </Box>
+              </Flex>
             </Flex>
           </Section>
           <Section css={{ position: "relative" }} id="events">
@@ -170,9 +173,11 @@ class Index extends React.Component {
                 ]}
               />
             </Flex>
-            {/* <Flex justifyContent="center">
-              <Button>Interested in sponsoring?</Button>
-            </Flex> */}
+            <Flex justifyContent="center">
+              <a href="/sponsorship.pdf">
+                <Button>Interested in sponsoring?</Button>
+              </a>
+            </Flex>
           </Section>
         </MaxWidthBox>
       </Layout>
@@ -236,7 +241,7 @@ export const pageQuery = graphql`
       }
     }
     games: allItchioGame(limit: 10,
-    filter: {cover_url: {ne: null}}) {
+      filter: {cover_url: {ne: null}}) {
       edges {
         node {
           url
@@ -247,6 +252,13 @@ export const pageQuery = graphql`
           }
           title
           cover_url
+        }
+      }
+    }
+    collage: file(relativePath: { eq: "assets/gamedev-collage.png" }) {
+      childImageSharp {
+        fluid(duotone: { highlight: "#00ff99", shadow: "#000066", opacity: 10 }) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
