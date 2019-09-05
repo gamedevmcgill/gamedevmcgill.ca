@@ -51,11 +51,11 @@ const sections = [
 const Navbar = () => (
   <Nav>
     <MediaQuery minWidth={900}>
-      <img src={Wordmark} alt="Game Dev McGill desktop logo" />
+      <img src={Wordmark} alt="GameDev McGill desktop logo" />
     </MediaQuery>
     <MediaQuery maxWidth={900}>
       <Box width="6rem">
-        <img src={Logo} alt="Game Dev McGill mobile logo" />
+        <img src={Logo} alt="GameDev McGill mobile logo" />
       </Box>
     </MediaQuery>
     <ul>

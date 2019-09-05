@@ -23,7 +23,7 @@ const ReturnLinkComponent = ({ inView }) => {
           <Flex alignItems="center">
             <img
               src={Logo}
-              alt="Game Dev McGill"
+              alt="GameDev McGill"
               style={{
                 width: "3.2rem",
                 marginRight: "1rem",

@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { FaExternalLinkAlt } from "react-icons/fa"
 import "./style.css";
 import { Flex, Box } from "reflexbox/styled-components";
 import StyledBox from "../Styled/StyledBox";
@@ -53,7 +54,7 @@ class SimpleSlider extends React.Component {
                 </Box>
                 <Flex alignItems="center">
                   <a href={i.url} target="_blank" rel="noopener noreferrer">
-                    <Button secondary>See on itch.io</Button>
+                    <Button secondary> <FaExternalLinkAlt /> itch.io</Button>
                   </a>
                 </Flex>
               </Flex>

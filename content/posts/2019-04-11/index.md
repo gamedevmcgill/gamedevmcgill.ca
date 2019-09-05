@@ -13,7 +13,7 @@ tags:
 
 # 🎩 It's showtime!
 
-Don't be fooled by the snow outside; it's definitely April. Although we aren't graced with the usual balmy spring weather, we're still getting to the end of the school year. 2018-2019 was our second year as Game Dev McGill, and as the club has grown over the past four semesters, so have all of our members. With the end right around the corner, we wanted to have a public event to highlight the efforts that we've put into our craft!
+Don't be fooled by the snow outside; it's definitely April. Although we aren't graced with the usual balmy spring weather, we're still getting to the end of the school year. 2018-2019 was our second year as GameDev McGill, and as the club has grown over the past four semesters, so have all of our members. With the end right around the corner, we wanted to have a public event to highlight the efforts that we've put into our craft!
 
 ![Elie in front of empty room](elie.jpeg)
 
@@ -29,7 +29,7 @@ Aside from the demos, we also had all the presenters come up in front of the who
 
 # 🏆 Winner?
 
-At the end of the night, everyone voted on their favourite game of the night. Without further ado, we'd like to announce that μ-drive by Jonathan Montineri won the popular vote for our first-ever Game Dev McGill Showcase! μ-drive is a fast-paced rhythm game inspired by Jonathan's own experiences with Japanese arcade games. Click the image below to see a YouTube video on how it works!
+At the end of the night, everyone voted on their favourite game of the night. Without further ado, we'd like to announce that μ-drive by Jonathan Montineri won the popular vote for our first-ever GameDev McGill Showcase! μ-drive is a fast-paced rhythm game inspired by Jonathan's own experiences with Japanese arcade games. Click the image below to see a YouTube video on how it works!
 
 [![Screenshot of μ-drive](mu-drive.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=MCwBT22h5Ms)
 

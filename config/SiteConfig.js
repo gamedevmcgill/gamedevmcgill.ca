@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "Game Dev McGill", // Site title.
+  siteTitle: "GameDev McGill", // Site title.
   siteTitleShort: "GDM", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Game Dev McGill", // Alternative site title for SEO.
+  siteTitleAlt: "GameDev McGill", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.jpg", // Logo used for SEO and manifest.
   siteUrl: "https://www.gamedevmcgill.ca", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
@@ -30,7 +30,7 @@ module.exports = {
       url: "mailto:gamedev@mcgilleus.ca",
     }
   ],
-  copyright: "Copyright © 2019. Game Dev McGill.", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2019. GameDev McGill.", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#FF0079", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };

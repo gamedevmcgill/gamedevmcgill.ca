@@ -1,1 +1,1 @@
-# Game Dev McGill
+# GameDev McGill
