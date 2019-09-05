@@ -36,7 +36,7 @@ I'd first like to thank the 2018-2019 exec team for all their hard work. They we
 
 However, with all ends come new beginnings! 🎆
 
-I am happy to present to you the Game Dev McGill exec team for 2019-2020:
+I am happy to present to you the GameDev McGill exec team for 2019-2020:
 
 ### Ness
 
@@ -80,15 +80,15 @@ Hi I’m Brendan! I’m a U3 Software Engineering student here at Mc-Grill and o
 
 ### Michel
 
-Hey I'm Michel! I'm a U3 Software Engineering student at McGill, and I'll be VP External for the upcoming year 2019-2020! I love the production industry and games are a big part of it! I've started experimenting recently with game development and it's definitely starting to grow on me. I'm especially interested in how games are designed, from the game environment itself as well as the storyline. My favorite games are definitely Assassin's Creed and Uncharted 3 and I also love first-person adventure games like Firewatch and in the Valley of the Gods! I can't wait to see what the next year holds for Game Dev McGill, and I'm super excited to see what I can learn from everyone on the team!
+Hey I'm Michel! I'm a U3 Software Engineering student at McGill, and I'll be VP External for the upcoming year 2019-2020! I love the production industry and games are a big part of it! I've started experimenting recently with game development and it's definitely starting to grow on me. I'm especially interested in how games are designed, from the game environment itself as well as the storyline. My favorite games are definitely Assassin's Creed and Uncharted 3 and I also love first-person adventure games like Firewatch and in the Valley of the Gods! I can't wait to see what the next year holds for GameDev McGill, and I'm super excited to see what I can learn from everyone on the team!
 
 # 🚀 Thanks For All the ~~Fish~~ Games!
 
-On behalf of this year's exec team, I'd like to thank all of our sponsors who supported us: Ubisoft Montreal, the Engineering Undergraduate Society, and MESC. Most importantly I'd also like to thank all of the members of Game Dev McGill for making this community as great as it is. 
+On behalf of this year's exec team, I'd like to thank all of our sponsors who supported us: Ubisoft Montreal, the Engineering Undergraduate Society, and MESC. Most importantly I'd also like to thank all of the members of GameDev McGill for making this community as great as it is. 
 
 On a personal note, I'd like to thank everyone who has supported us over the past four years. 
 
-In running McGame Jam and starting Game Dev McGill, I hoped to build and foster a **community** which I wish had existed when I first joined McGill. 
+In running McGame Jam and starting GameDev McGill, I hoped to build and foster a **community** which I wish had existed when I first joined McGill. 
 
 A community of all the *talented and creative* students learning from each other and inspiring each other.
 

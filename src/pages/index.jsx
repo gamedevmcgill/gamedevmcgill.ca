@@ -104,7 +104,7 @@ class Index extends React.Component {
               </StyledBox>
               <Box width={[1, 1, 1/2]} p={["2rem", "2rem", "0 0 0 12rem"]}>
                 <Paragraph>
-                  We are Game Dev McGill, the game development student society
+                  We are GameDev McGill, the game development student society
                   of McGill University. We are a group of students that are
                   passionate about creating games and enjoy learning new aspects
                   of game development. We hold events to fuel the creativity of
@@ -120,7 +120,7 @@ class Index extends React.Component {
             <Flex flexWrap="wrap" alignItems="center" mr={[0,0,0]}>
               <Box width={[1, 1, 1 / 2]} p={["2rem", "2rem", "0 4rem 0 0"]}>
                 <Paragraph>
-                  At Game Dev McGill, we require all members to keep working on
+                  At GameDev McGill, we require all members to keep working on
                   games every semester, whether they’re for personal projects or
                   made as part of game development events. Our own events
                   include internal monthly game jams, our yearly McGameJam, and
