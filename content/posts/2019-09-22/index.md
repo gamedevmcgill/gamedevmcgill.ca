@@ -36,12 +36,14 @@ Thank you to all our members who came! It was great seeing so many familiar face
 <p align="center">
   <img src=IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.jpg>
 </p>
+
   
 # 👋 Info Session
 
 <p align="center">
   <img src=https://68.media.tumblr.com/706e347a5c670acd6fbb79fbf5a095f6/tumblr_oni1olg4xQ1qgvqxoo2_540.gif>
 </p>
+
 
 An event usually held at the beginning of every year, our Info Session is meant for every McGill student out there who's interested in joining our club. It's the introduction to who we are, what we do, and how we do it. We don't recruit again until the start of the winter semester, so if you were interested in joining us, this was the event to be at!
 
