@@ -19,6 +19,8 @@ New year, (kinda) new us. As most clubs usually do at the start of each semester
   <img src=https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif>
  </p>
 
+ *(jk)*
+ 
 We've tabled at three events in these past weeks: EUS' Involvement Day, SSMU's Activities Night, and CS' Activities Night. We're excited to have met so many of you! There's nothing better than seeing so many enthusiastic faces, even if some of you just stopped to watch the demos (we love that too). Thank you to everyone who stopped by to say hi!
 
 # 🦕 Opening Night
@@ -53,6 +55,8 @@ TRIVIA NIGHTTT 🗣🗣🗣
 
 A fusion between four computer science clubs, including: yours truly (GameDev McGill), McWics, Compete and McGill AI. This event was open to all who answered the Google form to sign up. Participants got to meet new people and have friends join in their team to answer a series of coding and Comp. Sci. culture questions. It was a blast — equipped with free pizza, every participant had the opportunity to meet several McGill Comp. Sci. clubs as well as make new friends, and the winning team even got individual prizes! This even brought the participants and the organizers closer in similar fashion: by solving things and having fun 🕵️‍
 
+![](Trivia_winners.jpg)
+
 Stay tuned: a future Trivia Night might just be in the works 🔍
 
 # 🔜 Upcoming Events
@@ -70,6 +74,8 @@ All in all, its been an eventful past few weeks — it can only go up from here!
 <p align="center">
   <img src=https://i.pinimg.com/originals/c3/37/f7/c337f7d64998afa12c4eaac01665eafb.gif>
 </p>
+
+*(One of my many (and I mean many) favorite parts of F:NV was running around and finding all the snow globes. something about finding such a rare collectible in a vast wasteland... it's a pretty great feeling.)*
 
 ...and, of course, more! But that's our secret (for now 😎 )
 
