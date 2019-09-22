@@ -14,7 +14,6 @@ tags:
 New year, (kinda) new us. As most clubs usually do at the start of each semester, GameDev McGill started with a bang. In three weeks, aside from the various meetings we've held, we've tabled four times, hosted an Opening Night, held our Info Session, and joined some clubs for a fun Trivia Night. The ball's rolling and has yet to stop, but we're taking a moment to recap; it's always fun to look back and reflect! 💫
 
 # 🗣 Tabling
-
 ## (EUS Involvement Day, SSMU Activities Night, CS Activities Night)
 
 ![(jk)](https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif)
