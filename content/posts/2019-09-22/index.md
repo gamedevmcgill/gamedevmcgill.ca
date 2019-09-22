@@ -23,17 +23,23 @@ We've tabled at three events in these past weeks: EUS' Involvement Day, SSMU's A
 
 # 🦕 Opening Night
 
-![](http://66.media.tumblr.com/5d7d9b3784a28af3c042354b22af2f4f/tumblr_nkjck18Ovw1s9c6nao3_500.gif)
+<p align="center">
+  <img src=http://66.media.tumblr.com/5d7d9b3784a28af3c042354b22af2f4f/tumblr_nkjck18Ovw1s9c6nao3_500.gif>
+ </p>
 
 Opening Night! What is it? In essence, at the beginning of a semester, we invite our current members to come visit our club space in the Factory. The event is meant to help them reacquaint themselves with not only the space, but also the resources we have, meet the new execs, and just hang out for a while. It was a small get-together after a long day of classes to say hi and eat some pizza 🍕
 
 Thank you to all our members who came! It was great seeing so many familiar faces again, and even greater to see how everyone reconnected (or connected for the first time). We're excited to see how the rest of the semester'll go 🚀
 
-![](IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.jpg)
-
+<p align="center">
+  <img src=IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.jpg>
+</p>
+  
 # 👋 Info Session
 
-![](https://68.media.tumblr.com/706e347a5c670acd6fbb79fbf5a095f6/tumblr_oni1olg4xQ1qgvqxoo2_540.gif)
+<p align="center">
+  <img src=https://68.media.tumblr.com/706e347a5c670acd6fbb79fbf5a095f6/tumblr_oni1olg4xQ1qgvqxoo2_540.gif>
+</p>
 
 An event usually held at the beginning of every year, our Info Session is meant for every McGill student out there who's interested in joining our club. It's the introduction to who we are, what we do, and how we do it. We don't recruit again until the start of the winter semester, so if you were interested in joining us, this was the event to be at!
 
@@ -45,7 +51,7 @@ Quick shout out to our event sponsor, Notion (subtle plug: their premium plan is
 
 TRIVIA NIGHTTT 🗣🗣🗣
 
-A fusion between four computer science clubs, including: yours truly (GameDev McGill), McWics, Compete and McGill AI. This event was open to all who answered the Google form to sign up. Participants got to meet new people and have friends join in their team to answer a series of coding and Comp. Sci. culture questions. It was a blast — equipped with free pizza, every participant had the opportunity to meet several McGill Comp. Sci. clubs as well as make new friends, and the winning team even got individual prizes! This even brought the participants and the organizers closer in similar fashion: by solving things and having fun 🕵️‍♂️
+A fusion between four computer science clubs, including: yours truly (GameDev McGill), McWics, Compete and McGill AI. This event was open to all who answered the Google form to sign up. Participants got to meet new people and have friends join in their team to answer a series of coding and Comp. Sci. culture questions. It was a blast — equipped with free pizza, every participant had the opportunity to meet several McGill Comp. Sci. clubs as well as make new friends, and the winning team even got individual prizes! This even brought the participants and the organizers closer in similar fashion: by solving things and having fun 🕵️‍
 
 Stay tuned: a future Trivia Night might just be in the works 🔍
 
@@ -61,7 +67,9 @@ All in all, its been an eventful past few weeks — it can only go up from here!
 
 🔸  **Show & Tell**: Another new event, this time for showing off your favorite games. Doesn't have to be one you've made — if you, like me, love Fallout: New Vegas, or Stardew Valley, then you'd come in with a little game trailer or gameplay montage and talk about what makes it great, or talk about your favorite mechanic, character, monster, location, lore — the list is endless. A smaller event, our goal here is to give us all a tighter sense of community by sharing our favorite aspects of our favorite games.
 
-![one of my many (and I mean *many*) favorite parts of F:NV was running around and finding all the snow globes. something about finding such a rare collectible in a vast wasteland... it's a pretty great feeling.](https://i.pinimg.com/originals/c3/37/f7/c337f7d64998afa12c4eaac01665eafb.gif)
+<p align="center">
+  <img src=https://i.pinimg.com/originals/c3/37/f7/c337f7d64998afa12c4eaac01665eafb.gif>
+</p>
 
 ...and, of course, more! But that's our secret (for now 😎 )
 
