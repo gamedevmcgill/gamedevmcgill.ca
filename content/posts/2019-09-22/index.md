@@ -1,6 +1,6 @@
 ---
 title: "The first three weeks"
-cover: "./cover.jpeg"
+cover: "./cover.jpg"
 category: "events"
 author: "Seleste Estrada Orrego"
 date: "2019/09/22"
@@ -38,7 +38,7 @@ An event usually held at the beginning of every year, our Info Session is meant 
 
 Quick shout out to our event sponsor, Notion (subtle plug: their premium plan is free for students and educators! Check out the info [here](https://www.notion.so/students)) for covering the pizza and location! We hope the talk was both informative and enjoyable to all who came. We released the intro tutorial shortly after the event (more info can be found on our Facebook page), as well as our office hours, so be sure to check that out if you're interested in joining us! 🤓
 
-![](IMG_8815-610e5352-5529-4b0a-9101-9049948fbf94.jpg)
+![](notion.jpg)
 
 # 🧠 Trivia Night
 
