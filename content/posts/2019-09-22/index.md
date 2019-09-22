@@ -1,4 +1,4 @@
-﻿---
+---
 title: "The first three weeks"
 cover: "./cover.jpeg"
 category: "events"
@@ -6,24 +6,22 @@ author: "Seleste Estrada Orrego"
 date: "2019/09/22"
 slug: "the-first-three-weeks-2019"
 tags:
-    - events
-    - fall 2019
-    - 2019-2020
+  - events
+  - fall 2019
+  - 2019-2020
 ---
 
 New year, (kinda) new us. As most clubs usually do at the start of each semester, GameDev McGill started with a bang. In three weeks, aside from the various meetings we've held, we've tabled four times, hosted an Opening Night, held our Info Session, and joined some clubs for a fun Trivia Night. The ball's rolling and has yet to stop, but we're taking a moment to recap; it's always fun to look back and reflect! 💫
 
-## 🗣 Tabling
+# 🗣 Tabling
 
-### (EUS Involvement Day, SSMU Activities Night, CS Activities Night)
+## (EUS Involvement Day, SSMU Activities Night, CS Activities Night)
 
-![](https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif)
-
-(jk)
+![(jk)](https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif)
 
 We've tabled at three events in these past weeks: EUS' Involvement Day, SSMU's Activities Night, and CS' Activities Night. We're excited to have met so many of you! There's nothing better than seeing so many enthusiastic faces, even if some of you just stopped to watch the demos (we love that too). Thank you to everyone who stopped by to say hi!
 
-## 🦕 Opening Night
+# 🦕 Opening Night
 
 ![](http://66.media.tumblr.com/5d7d9b3784a28af3c042354b22af2f4f/tumblr_nkjck18Ovw1s9c6nao3_500.gif)
 
@@ -33,7 +31,7 @@ Thank you to all our members who came! It was great seeing so many familiar face
 
 ![](IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.jpg)
 
-## 👋 Info Session
+# 👋 Info Session
 
 ![](https://68.media.tumblr.com/706e347a5c670acd6fbb79fbf5a095f6/tumblr_oni1olg4xQ1qgvqxoo2_540.gif)
 
@@ -43,7 +41,7 @@ Quick shout out to our event sponsor, Notion (subtle plug: their premium plan is
 
 ![](IMG_8815-610e5352-5529-4b0a-9101-9049948fbf94.jpg)
 
-## 🧠 Trivia Night
+# 🧠 Trivia Night
 
 TRIVIA NIGHTTT 🗣🗣🗣
 
@@ -51,7 +49,7 @@ A fusion between four computer science clubs, including: yours truly (GameDev Mc
 
 Stay tuned: a future Trivia Night might just be in the works 🔍
 
-## 🔜 Upcoming Events
+# 🔜 Upcoming Events
 
 All in all, its been an eventful past few weeks — it can only go up from here! With the release of our roll-a-ball tutorial, we'll be making decisions on new members quite soon, and that's when most of our favorite events will take place, such as...
 
@@ -63,9 +61,7 @@ All in all, its been an eventful past few weeks — it can only go up from here!
 
 🔸  **Show & Tell**: Another new event, this time for showing off your favorite games. Doesn't have to be one you've made — if you, like me, love Fallout: New Vegas, or Stardew Valley, then you'd come in with a little game trailer or gameplay montage and talk about what makes it great, or talk about your favorite mechanic, character, monster, location, lore — the list is endless. A smaller event, our goal here is to give us all a tighter sense of community by sharing our favorite aspects of our favorite games.
 
-![](https://i.pinimg.com/originals/c3/37/f7/c337f7d64998afa12c4eaac01665eafb.gif)
-
-one of my many (and I mean *many*) favorite parts of F:NV was running around and finding all the snow globes. something about finding such a rare collectible in a vast wasteland... it's a pretty great feeling.
+![one of my many (and I mean *many*) favorite parts of F:NV was running around and finding all the snow globes. something about finding such a rare collectible in a vast wasteland... it's a pretty great feeling.](https://i.pinimg.com/originals/c3/37/f7/c337f7d64998afa12c4eaac01665eafb.gif)
 
 ...and, of course, more! But that's our secret (for now 😎 )
 
