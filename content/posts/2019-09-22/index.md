@@ -16,7 +16,7 @@ New year, (kinda) new us. As most clubs usually do at the start of each semester
 # 🗣 Tabling
 ## (EUS Involvement Day, SSMU Activities Night, CS Activities Night)
 
-![(jk)](https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif)
+![(jk)](https://media0.giphy.com/media/yDPtSqagyx69y/giphy.gif){: .center}
 
 We've tabled at three events in these past weeks: EUS' Involvement Day, SSMU's Activities Night, and CS' Activities Night. We're excited to have met so many of you! There's nothing better than seeing so many enthusiastic faces, even if some of you just stopped to watch the demos (we love that too). Thank you to everyone who stopped by to say hi!
 
