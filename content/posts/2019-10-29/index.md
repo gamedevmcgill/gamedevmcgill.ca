@@ -1,5 +1,5 @@
 ﻿---
-title: "The first three weeks"
+title: "New faces, new tech & a warm welcome"
 cover: "./cover.jpg"
 category: "events"
 author: "Filipe Rodrigues, Michael Sukkarieh, Sam Difeo, Seleste Estrada Orrego"
@@ -11,7 +11,6 @@ tags:
   - 2019-2020
 ---
 
-# New faces, new tech & a warm welcome
 
 Our second blog post of the school year is here! It's been a really (read: *really*) busy few weeks, what with our new members joining us (over 50!), a whole blitz of internal and external events, and much more. Here's our biweekly recap of what's been going down:
 
