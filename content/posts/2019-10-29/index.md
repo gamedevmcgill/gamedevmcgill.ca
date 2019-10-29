@@ -2,14 +2,15 @@
 title: "The first three weeks"
 cover: "./cover.jpg"
 category: "events"
-author: "Filipe Rodrigues, Michael Sukkarieh, Sam Difeo, Seleste Estrada Orrego"
-date: "2019/10/29"
-slug: "New faces, new tech & a warm welcome-2019"
+author: "Seleste Estrada Orrego"
+date: "2019/09/22"
+slug: "the-first-three-weeks-2019"
 tags:
   - events
   - fall 2019
   - 2019-2020
 ---
+
 
 # New faces, new tech & a warm welcome
 
