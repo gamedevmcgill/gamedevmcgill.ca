@@ -1,5 +1,5 @@
 ﻿---
-title: "New faces, new tech & a warm welcome"
+title: "New faces & a warm welcome"
 cover: "./cover.jpg"
 category: "events"
 author: "Filipe Rodrigues, Michael Sukkarieh, Sam Difeo, Seleste Estrada Orrego"
@@ -12,22 +12,23 @@ tags:
 ---
 
 
-Our second blog post of the school year is here! It's been a really (read: *really*) busy few weeks, what with our new members joining us (over 50!), a whole blitz of internal and external events, and much more. Here's our biweekly recap of what's been going down:
+Our second blog post of the school year is here! It's been a really (read: *really*) busy few weeks, what with our new members joining us (over 50!), a whole blitz of internal and external events, and much more. Here's our monthly recap of what's been going down:
 
 ## GameDev Social 1
 
 ![](P_20191009_185415-7844bfba-68e6-4f57-9603-2272be8952ab.jpg)
 
 
-<div style="display:flex; justify-content: space-between;">
-  <img src="harold.jpg"/>
-  <img src="harold.jpg"/>
-  <img src="harold.jpg"/>
-</div>
+<p align="center">
+    <img align="center" style="float: left; width: 32%; margin-right: 1.5%; margin-bottom: 0.5em;" src=https://i.imgur.com/zWTidyL.jpg/>
+    <img align="right" style="float: left; width: 33%; margin-right: 1.5%; margin-bottom: 0.5em;" src="scottsGame_-398b240a-ef18-48ff-964c-38d677f460d6.gif"/>
+    <img align="center" style="float: left; width: 32%; margin-right: 0%; margin-bottom: 0.5em;" src=https://i.imgur.com/CQJHwD5.png/>
+</p>
+<br clear="all" />
 
 A few weeks ago, our new and old members joined us for an evening in the EUS Common Room for our staple event: GDM's monthly social! Our theme for this social was *Harvest;* however, being our first social of the year, we took the opportunity to showcase some past games and introduce Ubisoft Game Lab Competition to our members. It was a good hour in the Common Room with snacks, good laughs and good people. We're excited to see what our members come up with for our following Social (the theme being *Lantern*!)
-style="max-width: 20%;" 
-## Boot Camp 1 & 2
+ 
+## Boot Camp 1, 2, 3!
 
 ![](IMG_8988-8548b5f5-bd36-4159-b3fd-ecb9c00ade34.jpg)
 
@@ -36,12 +37,12 @@ So far, the first three boot camp sessions have come and gone! For those who do 
 ## Unity Developer Day Montreal 2019
 
 ![](P_20191012_154100_vHDR_On-eb3abb3e-68a6-4060-985f-1ee2011609c8.jpg)
-
-![](vfxGif-027c3579-8f4f-40f2-b2b2-99f867844b32.gif)
-
-![](unityGif-5becad98-66fb-4504-a4ed-9d4ca73dfacb.gif)
-
-![](vfx_mask-0c539fc0-a14a-422e-baae-c05cc42b5cca.gif)
+<p align="center">
+    <img align="center" style="float: left; width: 32%; margin-right: 2%; margin-bottom: 0.5em;" src="vfxGif-027c3579-8f4f-40f2-b2b2-99f867844b32.gif"/>
+    <img align="center" style="float: left; width: 32%; margin-right: 2%; margin-bottom: 0.5em;" src="unityGif-5becad98-66fb-4504-a4ed-9d4ca73dfacb.gif"/>
+    <img align="right" style="float: left; width: 32%; margin-right: 0%; margin-bottom: 0.5em;" src="vfx_mask-0c539fc0-a14a-422e-baae-c05cc42b5cca.gif"/>
+</p>
+<br clear="all" />
 
 Unity Developer Day Montréal, which took place on the 2nd of October, was a great event! Many of our games from past monthly GameDev jams were on display. There was some new Unity updates and tech announced, including everything from new improvements to AR to a new VFX pipeline that rivals some of the best particle systems in other game engines (best of all, not only is it versatile for coders, but artist friendly, too, with a menu system to help!) Our participating members loved it and were very excited to show off their games!
 
@@ -53,9 +54,12 @@ A couple of weeks ago, McGill had the opportunity of hosting several Ubisoft Mon
 
 ## Ubisoft Tech Talk
 
-![](20191016_123710-ef7f1677-e1f5-4f18-93c3-674bdbf3d6b9.jpg)
+<p align="center">
+    <img align="left" style="float: left; width: 49%; margin-right: 2%; margin-bottom: 0.5em;" src=https://i.imgur.com/q68zVHt.jpg>
+    <img align="right" style="float: left; width: 49%; margin-right: 0%; margin-bottom: 0.5em;" src=https://i.imgur.com/ii5ZeTE.jpg>
+</p>
+<br clear="all" />
 
-![](ubi_talk-9a601b77-a771-4bae-adc8-7fe3bb4131cf.jpg)
 
 Last but not least, we had the pleasure of collaborating with the McGill Engineering Student Centre (MESC) for a technical talk presented by Ubisoft employees! The talk ("Putting out Fires: Engine Programming"), presented by technical engine leads Joël Michaud and Vincent Bherer-Roy, described the important role that engine programmers play in the development of modern AAA games. This was an amazing opportunity for students to learn more about what kind of challenges technical positions in the game industry face, as well as learn directly from industry veterans. Thanks Ubisoft! 
 
@@ -75,6 +79,5 @@ So, what's next? Check out some of our upcoming events below! 🤩
 
 Thanks for reading! 💛
 
-Until next time,
-
+Until next time,<br clear="all" />
 GameDev McGill's Exec Team
