@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-advanced",
-  "description": "GatsbyJS starter that includes examples for advanced use cases.",
-  "version": "1.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "name": "gdm-website",
+  "description": "Website for GameDev McGill, the game development student society of McGill University.",
+  "version": "1.0.0",
+  "author": "@gamedevmcgill",
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.4",
     "babel-plugin-polished": "^1.1.0",
