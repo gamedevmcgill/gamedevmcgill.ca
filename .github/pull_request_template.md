@@ -5,6 +5,8 @@
 
 ### Type of change:
 
+Delete types that don't apply.
+
 - [ ] Bug fix
 - [ ] Chore
 - [ ] New feature 
