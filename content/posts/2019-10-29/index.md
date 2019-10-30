@@ -18,14 +18,15 @@ Our second blog post of the school year is here! It's been a really (read: *real
 
 ![](P_20191009_185415-7844bfba-68e6-4f57-9603-2272be8952ab.jpg)
 
-![](OctMGJ_-c7d8c88e-137d-4477-aec7-8ba61a7af91b.jpg)
 
-![](OctMGJPong-863fd20c-4f02-42d9-b87a-722f5bafbba8.jpg)
-
-![](scottsGame_-398b240a-ef18-48ff-964c-38d677f460d6.gif)
+<div style="display:flex; justify-content: space-between;">
+  <img src="harold.jpg"/>
+  <img src="harold.jpg"/>
+  <img src="harold.jpg"/>
+</div>
 
 A few weeks ago, our new and old members joined us for an evening in the EUS Common Room for our staple event: GDM's monthly social! Our theme for this social was *Harvest;* however, being our first social of the year, we took the opportunity to showcase some past games and introduce Ubisoft Game Lab Competition to our members. It was a good hour in the Common Room with snacks, good laughs and good people. We're excited to see what our members come up with for our following Social (the theme being *Lantern*!)
-
+style="max-width: 20%;" 
 ## Boot Camp 1 & 2
 
 ![](IMG_8988-8548b5f5-bd36-4159-b3fd-ecb9c00ade34.jpg)
