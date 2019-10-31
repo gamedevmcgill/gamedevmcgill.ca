@@ -26,7 +26,7 @@ We've tabled at three events in these past weeks: EUS' Involvement Day, SSMU's A
 # 🦕 Opening Night
 
 <p align="center">
-  <img src=http://66.media.tumblr.com/5d7d9b3784a28af3c042354b22af2f4f/tumblr_nkjck18Ovw1s9c6nao3_500.gif>
+  <img src=https://66.media.tumblr.com/5d7d9b3784a28af3c042354b22af2f4f/tumblr_nkjck18Ovw1s9c6nao3_500.gif>
  </p>
 
 Opening Night! What is it? In essence, at the beginning of a semester, we invite our current members to come visit our club space in the Factory. The event is meant to help them reacquaint themselves with not only the space, but also the resources we have, meet the new execs, and just hang out for a while. It was a small get-together after a long day of classes to say hi and eat some pizza 🍕
