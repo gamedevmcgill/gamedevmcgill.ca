@@ -1,5 +1,5 @@
 # [GameDev McGill](https://gamedevmcgill.ca)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f20ac718-7f77-4fae-b8b7-abea7d45840e/deploy-status)](https://app.netlify.com/sites/gamedevmcgill/deploys)
 This is the static website of GameDev McGill, the game development student society of McGill University.
 
 ## Setup
