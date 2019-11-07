@@ -3,6 +3,13 @@
   "description": "Website for GameDev McGill, the game development student society of McGill University.",
   "version": "1.0.0",
   "author": "@gamedevmcgill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamedevmcgill/gamedevmcgill.ca"
+  },
+  "bugs": {
+    "url": "https://github.com/gamedevmcgill/gamedevmcgill.ca/issues"
+  },
   "dependencies": {
     "@hot-loader/react-dom": "^16.8.4",
     "babel-plugin-polished": "^1.1.0",
