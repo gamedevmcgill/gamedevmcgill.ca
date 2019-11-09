@@ -8,7 +8,7 @@ executives:
     position: Lead Programmer
     game: World of Warcraft
     portrait: "./sam.jpg"
-  - name: Brendan Killam
+  - name: Brendan Kellam
     position: Associate Programmer
     game: 
     portrait: "./brendan.jpg"
