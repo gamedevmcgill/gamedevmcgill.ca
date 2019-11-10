@@ -22,8 +22,8 @@ executives:
     portrait: "./jim.jpg"
   - name: Seleste Estrada Orrego
     position: VP Communications
-    game: 
-    portrait: "./empty.jpg"
+    game: "Fallout: New Vegas"
+    portrait: "./seleste.jpg"
   - name: Loreina Chew
     position: VP Communications
     game: "Breach"
