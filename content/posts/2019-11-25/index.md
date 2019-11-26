@@ -75,6 +75,8 @@ Five weeks and hundreds of lines of code later, the **Boot Camp** for 2019 disap
 
 ## 🐧 McGame Jam 2020
 
+![McGame Jam](./mcgamejam.jpg)
+
 We're excited for 2020 for a lot of reasons, and one of the big ones just happens to be...
 
 wait for it...
