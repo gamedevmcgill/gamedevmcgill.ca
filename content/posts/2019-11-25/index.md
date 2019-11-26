@@ -2,7 +2,7 @@
 title: "Goodbye, 2019!"
 cover: "./cover.jpg"
 category: "events"
-author: "Seleste Estrada Orrego"
+author: "Samantha Difeo, Vanessa Chu, Seleste Estrada Orrego"
 date: "2019/11/25"
 slug: "Goodbye, 2019!"
 tags:
