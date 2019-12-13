@@ -28,7 +28,7 @@ executives:
     position: VP Communications
     game: "Breach"
     portrait: "./loreina.jpg"
-  - name: Michel Abel Nour
+  - name: Michel Abdel Nour
     position: VP External
     game: 
     portrait: "./empty.jpg"
