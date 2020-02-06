@@ -12,7 +12,6 @@ import Team from "../components/Team/Team";
 import Navbar from "../components/Navbar/Navbar";
 import Events from "../components/Events/Events";
 
-import Sponsors from "../components/Sponsors/Sponsors";
 import MaxWidthBox from "../components/Styled/MaxWidthBox";
 import AbsoluteImage from "../components/Styled/AbsoluteImage";
 import H1 from "../components/Styled/H1";
@@ -22,6 +21,9 @@ import StyledBox from "../components/Styled/StyledBox";
 import Paragraph from "../components/Styled/Paragraph";
 import Section from "../components/Styled/Section";
 import Button from "../components/Styled/Button";
+
+import GoldSponsor from "../components/Sponsors/GoldSponsor";
+import SilverSponsor from "../components/Sponsors/SilverSponsor";
 
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
@@ -162,13 +164,23 @@ class Index extends React.Component {
           <Section id="sponsor">
             <H2>Sponsors</H2>
             <Flex flexWrap="wrap" justifyContent="center" mb="8rem">
-              <Sponsors
+              <GoldSponsor
                 sponsors={[
                   {
                     name: "Ubisoft",
                     logo:
                       "https://vignette.wikia.nocookie.net/logopedia/images/a/a0/Ubisoft_2017.svg/revision/latest?cb=20170622035823",
                     website: "https://www.ubisoft.com"
+                  }
+                ]}
+              />
+              <SilverSponsor
+                sponsors={[
+                  {
+                    name: "EA",
+                    logo:
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/1200px-Electronic-Arts-Logo.svg.png",
+                    website: "https://www.ea.com"
                   }
                 ]}
               />
