@@ -66,13 +66,17 @@ Our first Social of the semester was a total success! With the themes creepypast
 ## 🔜 Upcoming Events
 
 **Graphics Talk**
+
 Instead of a Boot Camp series, this semester, we're planning on holding a series of talks, given by our beloved Tech Team! The first one, a talk on Graphics, will be given by our resident elder (👴) Michael, who will be going over the basics of graphics and why they're so important in game development. Not a talk you want to miss!
 
 **Games Night feat. ECSESS**
+
 In a discord poll that went down not too long ago, a lot of our members mentioned that they wanted to do a games night. Hey, you talk, we listen: we're collaborating with ECSESS for an evening in the Trottier Lounge to have a games night! More info about this will come soon to the Discord & Facebook, so keep an eye out.
 
 **Social #2 feat. ETS & Concordia**
+
 A social, but make it big[ger]. We're collaborating with two clubs from different universities to bring you the _biggest_ Social yet. Get hype!!
 
 **24hr Stream, take two**
+
 Your resident factory gremlins, Seleste (that's me!) & Ness will be doing a second twenty-four hour stream late Feb (i.e., just before Reading Week kicks off, so you're morally and contractually obligated to tune in). After the success of our Extra Life stream last semester, we've had some people ask about when we'd be holding our second one — hence, take two! We'll be bringing you even _more_ wholesome memes, Sel's disembodied voice perpetually lurking in the background, Ness refusing to play horror games, our members taking over, and our other execs popping in. It'll be great. Don't miss it!
