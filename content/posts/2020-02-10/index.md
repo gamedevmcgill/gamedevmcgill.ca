@@ -12,7 +12,7 @@ tags:
 ---
 
 <p align="center">
-  <img src="https://thumbs.gfycat.com/AmazingWetAquaticleech-size_restricted.gif">
+  <img width="100%" src="https://thumbs.gfycat.com/AmazingWetAquaticleech-size_restricted.gif">
 </p>
 
 Hey. How's it hangin'?
@@ -40,7 +40,7 @@ Post-tabling, we released our intro tutorial and gave prospective members two we
 ## 🕹️ Night at the Factory
 
 <p align="center">
-  <img src="https://i.gifer.com/1rj.gif">
+  <img width="100%" src="https://i.gifer.com/1rj.gif">
 </p>
 
 Night at the Factory is a little event we hold every semester, usually post-Info Session, for our members to come together and reacquaint themselves with our club space, the Factory. This time, we had a good number of members stop by to say hey and grab a slice of pizza. Hello's were exchanged, convos were had, friendships were born, and the Factory (our club space) was buzzing with activity! As always, we kindly encourage all of our members to come by during our office hours to hang out and make some games. 🎮
@@ -48,7 +48,7 @@ Night at the Factory is a little event we hold every semester, usually post-Info
 ## 🎮 Ubisoft Industry Tour
 
 <p align="center">
-  <img src="https://media2.giphy.com/media/PcVy7GNZk88y4/source.gif">
+  <img width="100%" src="https://media2.giphy.com/media/PcVy7GNZk88y4/source.gif">
 </p>
 
 The Ubisoft tour was fun, to say the least. During this external event, we learned that Ubisoft Montreal is the biggest game development studio location (as far as team size) in the world, and it shows. From the camera/3D scan room (where every pore of an actor's face is saved) to the silent management section through the loud and proud bustling Rainbow 6 Siege floor to the testing rooms and down to the food truck lunch rooms, this was a tour not quite expected but all loved. We hope that those in awe and those passionate to get a start with Ubisoft as interns apply in droves; best of luck to you!
@@ -60,7 +60,7 @@ The Ubisoft tour was fun, to say the least. During this external event, we learn
 Our first Social of the semester was a total success! With the themes creepypasta and alien, we gave our members roughly two months to come up with a prototype or finished game that followed (or didn't!) the theme. We were happy to hear that everyone enjoyed the small get together, and are excited for our next Social — one we're doing with ETS' Conjure and Concordia's game development club!
 
 <p align="center">
-  <img src="https://media1.tenor.com/images/71ef384247340dabef92ed900e575360/tenor.gif">
+  <img width="100%" src="https://media1.tenor.com/images/71ef384247340dabef92ed900e575360/tenor.gif">
 </p>
 
 ## 🔜 Upcoming Events
