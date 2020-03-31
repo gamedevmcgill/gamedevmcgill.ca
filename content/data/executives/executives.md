@@ -10,12 +10,12 @@ executives:
     portrait: "./sam.jpg"
   - name: Brendan Kellam
     position: Associate Programmer
-    game: 
+    game: Fallout 3
     portrait: "./brendan.jpg"
   - name: Jack Minnetian
     position: Associate Programmer
-    game: 
-    portrait: "./empty.jpg"
+    game: Guild Wars
+    portrait: "./jack.jpg"
   - name: Ji Ming (Jim) Li
     position: VP Administration
     game: Civilization 6
