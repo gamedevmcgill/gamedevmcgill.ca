@@ -6,11 +6,11 @@ const Em = styled.em`
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-style: normal;
+  position: relative;
 
   ${props =>
     props.noBackground ||
     `
-    position: relative;
     &::after {
       position: absolute;
       background: black;
