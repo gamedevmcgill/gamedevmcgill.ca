@@ -24,6 +24,7 @@ import Button from "../components/Styled/Button";
 
 import GoldSponsor from "../components/Sponsors/GoldSponsor";
 import SilverSponsor from "../components/Sponsors/SilverSponsor";
+import BronzeSponsor from "../components/Sponsors/BronzeSponsor";
 
 import Layout from "../layout";
 import PostListing from "../components/PostListing/PostListing";
@@ -181,6 +182,15 @@ class Index extends React.Component {
                     logo:
                       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/1200px-Electronic-Arts-Logo.svg.png",
                     website: "https://www.ea.com"
+                  }
+                ]}
+              />
+              <BronzeSponsor
+                sponsors={[
+                  {
+                    name: "Netlify",
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/1280px-Netlify_logo.svg.png",
+                    website: "https://www.netlify.com"
                   }
                 ]}
               />
