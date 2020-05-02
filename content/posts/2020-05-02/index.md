@@ -21,7 +21,7 @@ With the current pandemic situation and my undergrad degree coming to a close, I
 
 Thank you so much to all of our members for their engagement in the club, it's always exciting to see all of the crazy projects that come out of the club every year. I can't wait to see how this community continues to grow and expand!
 
-- Michael Sukkarieh
+–Michael Sukkarieh
 
 ## 🔥 "...spring new beginnings."
 
