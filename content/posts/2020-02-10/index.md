@@ -2,7 +2,7 @@
 title: "Ringing in the New Year"
 cover: "./cover.jpg"
 category: "events"
-author: " Seleste Estrada Orrego"
+author: "Seleste Estrada Orrego"
 date: "2020/02/10"
 slug: "Ringing in the New Year"
 tags:
