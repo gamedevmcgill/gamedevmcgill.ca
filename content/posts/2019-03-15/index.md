@@ -20,7 +20,9 @@ Going forward, this bad boy is going to serve as a way for us to let people know
 
 ### 🚨 Attention all GDM members:
 
-![Calling all gamers](johnwick.jpg)
+<p align="center">
+  <img width="100%" src="johnwick.jpg" title="Calling all gamers">
+</p>
 
 The Factory has a leaky ceiling, and Élie needs your help to get sponsorship money to buy out the upstairs tenants who leave their sinks running.
 

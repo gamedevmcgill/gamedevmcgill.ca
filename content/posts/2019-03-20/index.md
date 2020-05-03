@@ -16,7 +16,9 @@ tags:
 
 Spring is coming 🌷 and that means that the end (of another academic year) is near. Some of us are (hopefully) graduating and won't be around next year. With half of the exec team gone, this leaves plenty of positions empty along with new positions to be filled on our committee.
 
-![](execs.png)
+<p align="center">
+  <img width="100%" src="execs.png">
+</p>
 
 ## ☀️ Hello new execs!
 

@@ -18,7 +18,9 @@ Despite what the weather forecast might say, we are fully in the midst of spring
 
 With that comes all the wonderful spring traditions you're used to: the return of allergies, the flooding of the streets, and the inevitable spring cleaning of your stuff in a moment of clarity motivated by Marie Kondo and finals procrastination.
 
-![](Untitled-4479ba09-92e2-46a8-b416-110200fe9263.png)
+<p align="center">
+  <img width="100%" src="Untitled-4479ba09-92e2-46a8-b416-110200fe9263.png">
+</p>
 
 Montreal spring fashion (where the rock is a pile of dirty snow)
 
@@ -30,7 +32,9 @@ I'd first like to thank the 2018-2019 exec team for all their hard work. They we
 
 (All past execs will be sticking around the discord after their tenure, keep an eye out for the Retired-Executive role 👴👵).
 
-![](Marie_Kondo_Execs-4da3b8e6-a445-4e97-be18-5dc49562b3eb.png)
+<p align="center">
+  <img width="100%" src="Marie_Kondo_Execs-4da3b8e6-a445-4e97-be18-5dc49562b3eb.png">
+</p>
 
 # 🚪 Opening New Doors
 
@@ -100,7 +104,9 @@ A community which could help foster game developers to be the best they can.
 
 While we've had our ups and downs, I am incredibly proud of the community we've built together. I'm constantly impressed and inspired by everyone's creativity and hard work, and I've made some great friends along the way.
 
-![](Untitled-ffb3008c-c4a8-42ca-8be7-3f42ea315054.png)
+<p align="center">
+  <img width="100%" src="Untitled-ffb3008c-c4a8-42ca-8be7-3f42ea315054.png">
+</p>
 
 Fun fact: I had to stall that presentation until the 50 chickens we ordered arrived and were ready to be served 🐓
 
