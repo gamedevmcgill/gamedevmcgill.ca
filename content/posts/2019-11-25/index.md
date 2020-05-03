@@ -18,7 +18,7 @@ Three months of go, go, go-ing (vroom vroom 🏎️💨) has resulted into a mul
 ## GameDev Social 2
 
 <p align="center">
-  <img src=https://media.giphy.com/media/xTiTntltYGbF6jBdw4/giphy.gif>
+  <img width="100%" src=https://media.giphy.com/media/xTiTntltYGbF6jBdw4/giphy.gif>
  </p>
 
 A big ol' shout out to the members who made a game, a prototype, presented an idea — there's nothing more inspiring than seeing our members sharing their unique and creative approaches to game dev! Our second Social took place on Nov. 11, with the theme of 🏮 Lantern 🏮 . We got to see a couple of cool ideas come to life — in case you're curious, go check out this month's [itch.io](https://itch.io/jam/game-jam-monthly-october-2019) page!
@@ -32,7 +32,7 @@ We've been asked as to whether we'll be hosting one more Social before the year 
 ## 👶 Extra Life Stream
 
 <p align="center">
-  <img src=https://media.giphy.com/media/26gJA86nNiY4a39Ze/giphy.gif>
+  <img width="100%" src=https://media.giphy.com/media/26gJA86nNiY4a39Ze/giphy.gif>
  </p>
 
 Our **Extra Life Twitch Stream** (where we broadcasted ourselves playing games for charity) was a huge success! We set out to make a 24h fundraising stream for Enfant Soleil, a local hospital charity for children, through Extra Life and surpassed our initial goal of 100$ USD; in total we managed to raise 145.72$ USD. We wish to thank everyone who donated, showed their support — whether by physically streaming, participating remotely as a viewer, or shared the event information — and to our sponsors Ubisoft and EA for helping make this fundraiser possible.
@@ -42,7 +42,7 @@ P.S. [We have a Twitch account](https://www.twitch.tv/gamedevmcgill)! Follow us 
 <p align="center">
   <iframe
       src="https://clips.twitch.tv/embed?clip=PlayfulUnsightlyEelTwitchRPG"
-      width="80%"
+      width="100%"
       height="320px"
       allowfullscreen="true">
   </iframe>
@@ -53,7 +53,7 @@ P.S. [We have a Twitch account](https://www.twitch.tv/gamedevmcgill)! Follow us 
 ## 🎭 Show & Tell
 
 <p align="center">
-  <img src=https://66.media.tumblr.com/de1bd45aa0562e2640bcf1d1f1b83942/tumblr_mqekrwsKsg1rqfhi2o1_400.gif>
+  <img width="100%" src=https://66.media.tumblr.com/de1bd45aa0562e2640bcf1d1f1b83942/tumblr_mqekrwsKsg1rqfhi2o1_400.gif>
 </p>
 
 **Show & Tell** was a new event this year! It's aim was to be an event where we could show our appreciation for games (specifically: what makes them great & why they perform so well as both artistic works and products) in a discussion-based setting. Members shared games that they hold dear and explained how innovative story telling, audio-visual techniques, game design and meticulous planning around player agency propelled these games to hold a cult status as gaming classics and influenced the medium greatly. Some of the games presented were Obra Dinn, Hellblade: Senua's Sacrifice, Skyrim, Fallout 3, Horizon Zero Dawn and Red Alert 2. We are thankful to have such a tight-knit community of devoted and inspired members! ❤️
