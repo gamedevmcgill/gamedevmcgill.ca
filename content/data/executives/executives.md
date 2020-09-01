@@ -46,6 +46,6 @@ executives:
     portrait: "./robin.jpeg"
   - name: Steven Lee
     position: VP McGame Jam
-    game: "Mother 3"
+    game: "Ico"
     portrait: "./steven.jpg"
 ---
