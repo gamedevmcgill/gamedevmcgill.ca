@@ -97,7 +97,7 @@
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
-    "format:js": "eslint --fix '**/*.{js,jsx}'"
+    "format:js": "eslint --fix --ext .js,.jsx ."
   },
   "remarkConfig": {
     "plugins": [
