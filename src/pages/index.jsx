@@ -92,7 +92,7 @@ class Index extends React.Component {
           </Flex>
           <Section id="about">
             <H2>About Us</H2>
-            <Flex flexWrap="wrap" alignItems="center" ml={[0,0,"-40rem"]}>
+            <Flex flexWrap="wrap" alignItems="center" ml={[0, 0, "-40rem"]}>
               <StyledBox p="2rem" width={[1, 1, 0.5]}>
                 <Img
                   fluid={photo.childImageSharp.fluid}
@@ -105,7 +105,7 @@ class Index extends React.Component {
                   alt="Various club activities"
                 />
               </StyledBox>
-              <Box width={[1, 1, 1/2]} p={["2rem", "2rem", "0 0 0 12rem"]}>
+              <Box width={[1, 1, 1 / 2]} p={["2rem", "2rem", "0 0 0 12rem"]}>
                 <Paragraph>
                   We are GameDev McGill, the game development student society
                   of McGill University. We are a group of students that are
@@ -120,7 +120,7 @@ class Index extends React.Component {
           </Section>
           <Section id="games">
             <H2>Our Games</H2>
-            <Flex flexWrap="wrap" alignItems="center" mr={[0,0,0]}>
+            <Flex flexWrap="wrap" alignItems="center" mr={[0, 0, 0]}>
               <Box width={[1, 1, 1 / 2]} p={["2rem", "2rem", "0 4rem 0 0"]}>
                 <Paragraph>
                   At GameDev McGill, we require all members to keep working on
@@ -172,17 +172,17 @@ class Index extends React.Component {
                     logo:
                       "https://vignette.wikia.nocookie.net/logopedia/images/a/a0/Ubisoft_2017.svg/revision/latest?cb=20170622035823",
                     website: "https://www.ubisoft.com"
+                  },
+                  {
+                    name: "Stadia",
+                    logo:
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stadia_logo.svg/500px-Stadia_logo.svg.png",
+                    website: "https://stadia.google.com/"
                   }
                 ]}
               />
               <SilverSponsor
                 sponsors={[
-                  {
-                    name: "EA",
-                    logo:
-                      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/1200px-Electronic-Arts-Logo.svg.png",
-                    website: "https://www.ea.com"
-                  }
                 ]}
               />
               <BronzeSponsor
