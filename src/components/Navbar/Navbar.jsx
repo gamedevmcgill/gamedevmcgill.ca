@@ -64,7 +64,7 @@ const Navbar = () => (
           <AnchorLink
             offset="100"
             href={`#${s.id}`}
-            style={{ color: "inherit" }}
+            style={{ color: "inherit", textDecoration: "none" }}
           >
             {s.name}
           </AnchorLink>
