@@ -9,6 +9,7 @@ import { Flex, Box } from "reflexbox/styled-components";
 
 import Carousel from "../components/Carousel/Carousel";
 import Team from "../components/Team/Team";
+import Alumni from "../components/Alumni/Alumni";
 import Navbar from "../components/Navbar/Navbar";
 import Events from "../components/Events/Events";
 
@@ -149,6 +150,10 @@ class Index extends React.Component {
               />
             </MediaQuery>
           </Section>
+          <Section id="team">
+            <H2>Our team</H2>
+            <Team members={executives} />
+          </Section>
           <Section id="blog">
             <H2>Blog</H2>
             <PostListing postEdges={postEdges} isInfinite={false} />
@@ -158,9 +163,9 @@ class Index extends React.Component {
               </Link>
             </Flex>
           </Section>
-          <Section id="team">
-            <H2>Our team</H2>
-            <Team members={executives} />
+          <Section id="alumni">
+            <H2>Notable Alumni</H2>
+            <Alumni members={executives} />
           </Section>
           <Section id="sponsor">
             <H2>Sponsors</H2>

@@ -39,6 +39,7 @@
     "gatsby-source-itchio": "^0.1.1",
     "gatsby-transformer-remark": "2.1.11",
     "gatsby-transformer-sharp": "^2.2.19",
+    "graphql": "^14.6.0",
     "intersection-observer": "^0.5.1",
     "lodash": "^4.17.4",
     "moment": "^2.22.2",
