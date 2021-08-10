@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "npm update && npm run build"
 [build.environment]
   NODE_VERSION = "12.16.0"
-  ITCHIO_KEY = "XqI79oZ6DLpDgJoPQ8zgzk3nTxgxmibcRJ937pSP"
+  NPM_VERSION = "7.7.6"
