@@ -1,6 +1,6 @@
 ---
 title: "Join Our Team!"
-cover: "./DSCF1722.png"
+cover: "./DSCF1722.JPG"
 category: "announcement"
 author: "Fiona Hang"
 date: "2019/03/20"

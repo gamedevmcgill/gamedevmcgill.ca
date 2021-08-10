@@ -1,6 +1,6 @@
 ---
 title: "Ringing in the New Year"
-cover: "./cover.png"
+cover: "./cover.jpg"
 category: "events"
 author: "Seleste Estrada Orrego"
 date: "2020/02/10"
@@ -23,7 +23,7 @@ GameDev-wise: It's been a busy first month for us! If you're interested in findi
 
 ## ⛄ McGame Jam 2020
 
-![McGame Jam 2020](./mcgamejam.png)
+![McGame Jam 2020](./mcgamejam.jpg)
 
 This year, we changed things up and held our staple event, McGame Jam, a little earlier. McGame Jam 2020 took place the weekend of January 10-12, and it was a blast! For the theme of "Can't Go Back", the event got plenty of creative cogs turning. We want to extend a huge thank you to everyone who helped make this jam a reality — our sponsors (and mentors), who include Ubisoft and EA; our 150 participants, who, over the course of 48 hours, produced some incredible games; and our volunteers, who helped keep everyone and everything running smoothly, regardless of the hour.
 
@@ -31,7 +31,7 @@ We're so happy to have had the pleasure to host McGame Jam for its sixth year, a
 
 ## 💬 Info Session, Recruitment, & Tabling
 
-![Tabling](./tabling.png)
+![Tabling](./tabling.jpg)
 
 As we usually do every semester, we did our usual rotation of tabling, including being at EUS Involvement Day & SSMU's Activities Night. We loved meeting so many of you! We always appreciate the opportunity to show off our members' games and hope you guys enjoyed it as well :)
 
@@ -55,7 +55,7 @@ The Ubisoft tour was fun, to say the least. During this external event, we learn
 
 ## 🍕 Social 1
 
-![Social](./social.png)
+![Social](./social.jpg)
 
 Our first Social of the semester was a total success! With the themes creepypasta and alien, we gave our members roughly two months to come up with a prototype or finished game that followed (or didn't!) the theme. We were happy to hear that everyone enjoyed the small get together, and are excited for our next Social — one we're doing with ETS' Conjure and Concordia's game development club!
 

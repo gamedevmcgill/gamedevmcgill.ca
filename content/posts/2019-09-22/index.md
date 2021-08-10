@@ -1,6 +1,6 @@
 ---
 title: "The first three weeks"
-cover: "./cover.png"
+cover: "./cover.jpg"
 category: "events"
 author: "Seleste Estrada Orrego"
 date: "2019/09/22"
@@ -34,7 +34,7 @@ Opening Night! What is it? In essence, at the beginning of a semester, we invite
 Thank you to all our members who came! It was great seeing so many familiar faces again, and even greater to see how everyone reconnected (or connected for the first time). We're excited to see how the rest of the semester'll go 🚀
 
 <p align="center">
-  <img width="100%" src=IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.png>
+  <img width="100%" src=IMG_8793-0a375bde-b36e-4c49-8d9d-fcc8c457ec3c.jpg>
 </p>
 
   
@@ -49,7 +49,7 @@ An event usually held at the beginning of every year, our Info Session is meant 
 
 Quick shout out to our event sponsor, Notion (subtle plug: their premium plan is free for students and educators! Check out the info [here](https://www.notion.so/students)) for covering the pizza and location! We hope the talk was both informative and enjoyable to all who came. We released the intro tutorial shortly after the event (more info can be found on our Facebook page), as well as our office hours, so be sure to check that out if you're interested in joining us! 🤓
 
-![](notion.png)
+![](notion.jpg)
 
 # 🧠 Trivia Night
 
@@ -57,7 +57,7 @@ TRIVIA NIGHTTT 🗣🗣🗣
 
 A fusion between four computer science clubs, including: yours truly (GameDev McGill), McWics, Compete and McGill AI. This event was open to all who answered the Google form to sign up. Participants got to meet new people and have friends join in their team to answer a series of coding and Comp. Sci. culture questions. It was a blast — equipped with free pizza, every participant had the opportunity to meet several McGill Comp. Sci. clubs as well as make new friends, and the winning team even got individual prizes! This even brought the participants and the organizers closer in similar fashion: by solving things and having fun 🕵️‍
 
-![](Trivia_winners.png)
+![](Trivia_winners.jpg)
 
 Stay tuned: a future Trivia Night might just be in the works 🔍
 

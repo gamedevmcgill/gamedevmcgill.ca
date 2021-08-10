@@ -1,6 +1,6 @@
 ---
 title: "Goodbye, 2019!"
-cover: "./cover.png"
+cover: "./cover.jpg"
 category: "events"
 author: "Samantha Difeo, Vanessa Chu, Seleste Estrada Orrego"
 date: "2019/11/25"
@@ -23,7 +23,7 @@ Three months of go, go, go-ing (vroom vroom 🏎️💨) has resulted into a mul
 
 A big ol' shout out to the members who made a game, a prototype, presented an idea — there's nothing more inspiring than seeing our members sharing their unique and creative approaches to game dev! Our second Social took place on Nov. 11, with the theme of 🏮 Lantern 🏮 . We got to see a couple of cool ideas come to life — in case you're curious, go check out this month's [itch.io](https://itch.io/jam/game-jam-monthly-october-2019) page!
 
-![The Sallow](./the-sallow.png)
+![The Sallow](./the-sallow.jpg)
 
 <font color="#5f5f5f">_Among all the presentations was [The Sallow](https://mrfufu.itch.io/the-sallow), a fun mini-game where the main enemy was composed of three different lanterns!_</font>
 
@@ -58,7 +58,7 @@ P.S. [We have a Twitch account](https://www.twitch.tv/gamedevmcgill)! Follow us 
 
 **Show & Tell** was a new event this year! It's aim was to be an event where we could show our appreciation for games (specifically: what makes them great & why they perform so well as both artistic works and products) in a discussion-based setting. Members shared games that they hold dear and explained how innovative story telling, audio-visual techniques, game design and meticulous planning around player agency propelled these games to hold a cult status as gaming classics and influenced the medium greatly. Some of the games presented were Obra Dinn, Hellblade: Senua's Sacrifice, Skyrim, Fallout 3, Horizon Zero Dawn and Red Alert 2. We are thankful to have such a tight-knit community of devoted and inspired members! ❤️
 
-![Show and Tell](./show-and-tell.png)
+![Show and Tell](./show-and-tell.jpg)
 
 <font color="#5f5f5f">_feat. Mountain Dew, AKA gamer fuel™️_</font>
 
@@ -75,7 +75,7 @@ Five weeks and hundreds of lines of code later, the **Boot Camp** for 2019 disap
 
 ## 🐧 McGame Jam 2020
 
-![McGame Jam](./mcgamejam.png)
+![McGame Jam](./mcgamejam.jpg)
 
 We're excited for 2020 for a lot of reasons, and one of the big ones just happens to be...
 
