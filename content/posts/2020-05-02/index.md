@@ -1,6 +1,6 @@
 ---
 title: "Oh, the places you'll go!"
-cover: "./cover.jpg"
+cover: "./cover.png"
 category: "announcement"
 author: "Seleste Estrada Orrego"
 date: "2020/05/02"

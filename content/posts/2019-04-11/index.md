@@ -24,13 +24,13 @@ What ended up happening? Last Tuesday, we booked the EUS Common Room, ordered a 
 Platformer? Check! Racer? Check! Bullet hell? Check! Horror? Check! Quick-time action theatre stage dressing game with Twitch chat integration? Check! You get the idea...
 
 <p align="center">
-  <img width="100%" src="play.jpg" alt="Demoing Games">
+  <img width="100%" src="play.png" alt="Demoing Games">
 </p>
 
 Aside from the demos, we also had all the presenters come up in front of the whole audience for a few minutes to give some context on their ideas and how they made them come to life!
 
 <p align="center">
-  <img width="100%" src="presenting.jpg" alt="Presenting">
+  <img width="100%" src="presenting.png" alt="Presenting">
 </p>
 
 # 🏆 Winner?
@@ -39,7 +39,7 @@ At the end of the night, everyone voted on their favourite game of the night. Wi
 
 <p align="center">
   <a href="https://www.youtube.com/watch?feature=player_embedded&v=MCwBT22h5Ms" target="_blank" rel="noopener noreferrer">
-    <img width="100%" src="mu-drive.jpg" alt="Screenshot of μ-drive">
+    <img width="100%" src="mu-drive.png" alt="Screenshot of μ-drive">
   </a>
 </p>
 
