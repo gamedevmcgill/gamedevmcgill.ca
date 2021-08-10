@@ -1,5 +1,5 @@
 [build]
   publish = "public"
-  command = "gadsby clean && gadsby build"
+  command = "gatsby clean && gatsby build"
 [build.environment]
   NODE_VERSION = "12.16.0"
