@@ -2,4 +2,5 @@
   publish = "public"
   command = "npm run build"
 [build.environment]
-  NODE_VERSION = "14.16.0"
+  NODE_VERSION = "12.16.0"
+  ITCHIO_KEY = "XqI79oZ6DLpDgJoPQ8zgzk3nTxgxmibcRJ937pSP"
