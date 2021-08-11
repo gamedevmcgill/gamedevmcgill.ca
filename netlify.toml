@@ -1,6 +1,5 @@
 [build]
   publish = "public"
-  command = "npm install && npm run build"
+  command = "npm run build"
 [build.environment]
   NODE_VERSION = "12.16.0"
-  NPM_VERSION = "7.7.6"
