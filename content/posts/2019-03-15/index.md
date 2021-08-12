@@ -1,6 +1,6 @@
 ---
 title: "The website is live!"
-cover: "./cover.jpg"
+cover: "./cover.png"
 category: "announcement"
 author: "Erick Zhao"
 date: "2019/03/14"

@@ -1,51 +1,47 @@
 ---
 executives:
-  - name: Vanessa Chu
+  - name: Robin Leman
     position: President
-    game: "Dead by Daylight"
-    portrait: "./ness.jpg"
+    game: "Uncharted"
+    portrait: "./robin.png"
   - name: Ali Tahmasebi
     position: VP Finance
     game: "The Witcher 3"
     portrait: "./ali.jpg"
-  - name: Samantha Difeo
-    position: Lead Programmer
-    game: World of Warcraft
-    portrait: "./sam.jpg"
-  - name: Brendan Kellam
-    position: Associate Programmer
+  - name: Denis A Racicot
+    position: Technical Lead
     game: Rocket League
-    portrait: "./brendan.jpg"
-  - name: Jack Minnetian
-    position: Associate Programmer
-    game: Guild Wars
-    portrait: "./jack.jpg"
+    portrait: "./denis.jpg"
+  - name: Roey Borsteinas
+    position: Technical Specialist
+    game: Path of Exile
+    portrait: "./roey.png"
+  - name: Feiyang Li
+    position: Tech Specialist
+    game: Destiny
+    portrait: "./feiyang.jpeg"
   - name: Lancer Guo
-    position: Associate Programmer
+    position: Tech Specialist
     game: "Persona 5"
     portrait: "./lancer.png"
   - name: Ji Ming (Jim) Li
     position: VP Administration
-    game: Europa Universalis IV
+    game: "Ghost Runner"
     portrait: "./jim.jpg"
-  - name: Seleste Estrada Orrego
+  - name: Mika Dukar
     position: VP Communications
-    game: "Fallout: New Vegas"
-    portrait: "./seleste.jpeg"
-  - name: Yunke Xiao
+    game: "Ghost Trick"
+    portrait: "./mika.jpg"
+  - name: Sophearah Suy-Puth
     position: VP Communications
-    game: "Dark Souls"
-    portrait: "./yunke.jpg"
-  - name: Filipe Rodrigues
-    position: VP External
-    game: "The Witcher 3"
-    portrait: "./filipe.jpg"
-  - name: Robin Leman
-    position: VP Internal
-    game: "The Last Of Us, Uncharted"
-    portrait: "./robin.jpeg"
-  - name: Steven Lee
-    position: VP McGame Jam
-    game: "Ico"
-    portrait: "./steven.jpg"
+    game: "Don't Starve Together"
+    portrait: "./soph.jpg"
+  - name: Siddhant Shirke
+    position: VP Hackathon
+    game: "Persona 5"
+    portrait: "./sid.jpg"
+  - name: O. Kaya
+    position: VP Events
+    game: "Max Payne"
+    portrait: "./kaya.png"
 ---
